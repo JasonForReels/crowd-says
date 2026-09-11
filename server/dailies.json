@@ -1,0 +1,5366 @@
+{
+ "253": {
+  "q": "Name something you might pack for a camping trip",
+  "a": [
+   [
+    "Sleeping Bag",
+    27,
+    [
+     "sleeping bag",
+     "bag",
+     "camping bag",
+     "bedroll",
+     "sleepinggear",
+     "bed roll",
+     "sac de couchage",
+     "sack"
+    ]
+   ],
+   [
+    "Tent",
+    22,
+    [
+     "tent",
+     "tente",
+     "canopy",
+     "camp tent",
+     "pop-up tent",
+     "awning"
+    ]
+   ],
+   [
+    "Water Bottle",
+    17,
+    [
+     "water bottle",
+     "water bottle",
+     "water jug",
+     "canteen",
+     "hydration bottle",
+     "bottle"
+    ]
+   ],
+   [
+    "Stove",
+    14,
+    [
+     "stove",
+     "camp stove",
+     "gas stove",
+     "portable stove",
+     "burner"
+    ]
+   ],
+   [
+    "Flashlight",
+    9,
+    [
+     "flashlight",
+     "torch",
+     "flash light",
+     "flash lamp",
+     "electric torch",
+     "torchlight"
+    ]
+   ],
+   [
+    "First Aid Kit",
+    4,
+    [
+     "first aid kit",
+     "med kit",
+     "firstaid",
+     "medical kit",
+     "first-aid",
+     "injury kit"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Sunscreen",
+   "Bug Spray",
+   "Map",
+   "Food",
+   "Backpack"
+  ]
+ },
+ "254": {
+  "q": "Name something people celebrate on a birthday",
+  "a": [
+   [
+    "Birthday Cake",
+    23,
+    [
+     "Birthday cake",
+     "Cake",
+     "Cake Slice",
+     "Birthday Treat",
+     "Slice Of Cake",
+     "Piece Of Cake",
+     "Birthday Cupcake",
+     "Happy Cake",
+     "B-day Cake",
+     "Celebration Cake",
+     "Cake With Candles"
+    ]
+   ],
+   [
+    "Gifts",
+    20,
+    [
+     "Present",
+     "Presents",
+     "Gifts",
+     "Gift",
+     "Birthday Gifts",
+     "Birthday Presents",
+     "Wrapped Gift",
+     "Package",
+     "Parcels",
+     "Gifting",
+     "Gift Box"
+    ]
+   ],
+   [
+    "Candles",
+    16,
+    [
+     "Birthday Candles",
+     "Candle",
+     "Candles",
+     "Candle Stick",
+     "Birthday Light",
+     "Flame",
+     "Wax Candles",
+     "Number Candles",
+     "Candle Row",
+     "Candles On Cake",
+     "Candle Lights"
+    ]
+   ],
+   [
+    "Songs",
+    13,
+    [
+     "Birthday Song",
+     "Happy Birthday",
+     "Song",
+     "Songs",
+     "Sing",
+     "Sing-Along",
+     "Birthday Melody",
+     "Music",
+     "Song For Birthday",
+     "HBD We",
+     "Happy Birthday To You"
+    ]
+   ],
+   [
+    "Party",
+    11,
+    [
+     "Birthday Party",
+     "Party",
+     "Celebration",
+     "Get Together",
+     "Gathering",
+     "Celebration Party",
+     "BBQ",
+     "Party Time",
+     "Celebratory Event",
+     "Big Party",
+     "Fun Night"
+    ]
+   ],
+   [
+    "Cards",
+    10,
+    [
+     "Birthday Card",
+     "Cards",
+     "Greeting Card",
+     "Card",
+     "Birthday Card",
+     "Handwritten Card",
+     "Card With Message",
+     "Thank You Card",
+     "Wish Card",
+     "Greeting",
+     "Notes"
+    ]
+   ]
+  ],
+  "theme": "birthdays"
+ },
+ "255": {
+  "q": "Name something grandparents love to do with their grandkids",
+  "a": [
+   [
+    "Tell Stories",
+    26,
+    [
+     "storytelling",
+     "grandpa stories",
+     "grandma stories",
+     "bedtime tales",
+     "family tales",
+     "old stories",
+     "heritage tales",
+     "legends",
+     "memories"
+    ]
+   ],
+   [
+    "Bake Cookies",
+    21,
+    [
+     "cookie baking",
+     "grandma bake",
+     "grandpa bake",
+     "cookies",
+     "cookie dough",
+     "bake together",
+     "baking time",
+     "oven cookies",
+     "treats",
+     "sweet treats"
+    ]
+   ],
+   [
+    "Watch TV",
+    17,
+    [
+     "watching shows",
+     "tv together",
+     "favorite programs",
+     "television",
+     "news",
+     "movies",
+     "cartoons",
+     "repeats",
+     "screen time",
+     "family movies",
+     "sports"
+    ]
+   ],
+   [
+    "Play Card Games",
+    14,
+    [
+     "cards",
+     "card games",
+     "bridge",
+     "rummy",
+     "solitaire",
+     "go fish",
+     "crazy eights",
+     "monopoly deal",
+     "poker?",
+     "spades",
+     "canasta"
+    ]
+   ],
+   [
+    "Garden Together",
+    9,
+    [
+     "gardening",
+     "planting",
+     "flowers",
+     "vegetables",
+     "yard work",
+     "green thumbs",
+     "outdoors",
+     "weed garden",
+     "soil",
+     "watering"
+    ]
+   ],
+   [
+    "Go On Walks",
+    7,
+    [
+     "walking",
+     "strolls",
+     "nature walks",
+     "hikes",
+     "rim walk",
+     "brisk walk",
+     "evening strolls",
+     "friendly walk",
+     "pool?",
+     "sunset walk"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Video Games",
+   "Hip Hop",
+   "Concert",
+   "Dating",
+   "College"
+  ]
+ },
+ "256": {
+  "q": "Name something people hang during Christmas",
+  "a": [
+   [
+    "Christmas Stockings",
+    28,
+    [
+     "Stockings",
+     "Stocking",
+     "Christmastime Stockings",
+     "Sock",
+     "Holiday Sock",
+     "Stockings by Mantel",
+     "Mantel Stocking",
+     "Stocking Hangers",
+     "Decorative Stockings",
+     "Socked",
+     "Stockings for Gifting"
+    ]
+   ],
+   [
+    "Christmas Tree",
+    23,
+    [
+     "Tree",
+     "Holiday Tree",
+     "Decorated Tree",
+     "Fir Tree",
+     "Evergreen",
+     "Xmas Tree",
+     "Tree Decoration",
+     "Pine Tree",
+     "Tree with Lights",
+     "Ornamental Tree",
+     "Tree Setup"
+    ]
+   ],
+   [
+    "Lights",
+    18,
+    [
+     "Fairy Lights",
+     "String Lights",
+     "Christmas Lights",
+     "Lights On",
+     "LED Lights",
+     "Light Show",
+     "Seasonal Lights",
+     "Stringed Lights",
+     "Decorative Lights",
+     "Light Strands",
+     "Home Lights"
+    ]
+   ],
+   [
+    "Wreath",
+    14,
+    [
+     "Holiday Wreath",
+     "Door Wreath",
+     "Evergreen Wreath",
+     "Festive Wreath",
+     "Garland Circle",
+     "Circle Wreath",
+     "Winter Wreath",
+     "Door Decoration",
+     "Christmas Wreath",
+     "Wreath on Door"
+    ]
+   ],
+   [
+    "Stockings",
+    11,
+    [
+     "Stocking",
+     "Decorated Stocking",
+     "Gift Stocking",
+     "Christmas Stocking",
+     "Mantel Stocking",
+     "Wall Stocking",
+     "Sock Stocking",
+     "Stockings"
+    ]
+   ],
+   [
+    "Gingerbread",
+    1,
+    [
+     "Gingerbread House",
+     "Gingerbread Cookie",
+     "Gingerbread Man",
+     "Gingerbread Cookie",
+     "Gingerbread City",
+     "Gingerbread Cookie House",
+     "Gingerbread Village"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Decorate",
+   "Snow",
+   "Santa",
+   "Tree Toy",
+   "Candy Cane"
+  ]
+ },
+ "257": {
+  "q": "Name something people post on social media",
+  "a": [
+   [
+    "Selfie",
+    24,
+    [
+     "selfie",
+     "self portrait",
+     "self-portrait",
+     "自拍"
+    ]
+   ],
+   [
+    "Meal Pic",
+    20,
+    [
+     "food photo",
+     "food pic",
+     "plate pic",
+     "meal photo",
+     "foodstagram",
+     "eatstagram"
+    ]
+   ],
+   [
+    "Pet Video",
+    17,
+    [
+     "pet video",
+     "dog video",
+     "cat video",
+     "pet clip",
+     "animal video",
+     "宠物视频"
+    ]
+   ],
+   [
+    "Travel Photo",
+    14,
+    [
+     "travel pic",
+     "travel photo",
+     "vacation pic",
+     "vacation photo",
+     "trip pic",
+     "holiday pic"
+    ]
+   ],
+   [
+    "OOTD",
+    11,
+    [
+     "outfit of the day",
+     "outfit post",
+     "fashion post",
+     "style pic",
+     "look of the day"
+    ]
+   ],
+   [
+    "Funny Meme",
+    8,
+    [
+     "meme",
+     "funny meme",
+     "humor meme",
+     "comedy meme",
+     "lol meme"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Homework",
+   "Work Email",
+   "Alarm Clock",
+   "Library Book",
+   "Gym Bag"
+  ]
+ },
+ "258": {
+  "q": "Name something people do to enjoy summer heat",
+  "a": [
+   [
+    "Ice Cream",
+    26,
+    [
+     "ice cream",
+     "soft serve",
+     "frozen treat",
+     "Choco Chip",
+     "Vanilla Cone",
+     "sherbet",
+     "gelato",
+     "treat"
+    ]
+   ],
+   [
+    "Beach Trip",
+    22,
+    [
+     "beach day",
+     "trip to the beach",
+     "coast outing",
+     "shore visit",
+     "seaside trip",
+     "sand day",
+     "surf trip",
+     "boardwalk",
+     "vacation by the sea"
+    ]
+   ],
+   [
+    "Swimming",
+    17,
+    [
+     "swim",
+     "swimming laps",
+     "pool time",
+     "water swim",
+     "bathe",
+     "cool off",
+     "dip",
+     "swim meet"
+    ]
+   ],
+   [
+    "Barbecue",
+    14,
+    [
+     "BBQ",
+     "cookout",
+     "grill out",
+     "barbeque",
+     "grilling",
+     "cook-up",
+     "outdoor grill",
+     "charcoal grill"
+    ]
+   ],
+   [
+    "Picnic",
+    9,
+    [
+     "picnic",
+     "picnic basket",
+     "outdoor meal",
+     "parkside lunch",
+     "sandwichs",
+     "al fresco",
+     "picnic date",
+     "family lunch"
+    ]
+   ],
+   [
+    "Outdoor Concert",
+    7,
+    [
+     "concert",
+     "summer concert",
+     "outdoor show",
+     "live music",
+     "music in the park",
+     "band night",
+     "festival",
+     "stadium show"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Movie Night",
+   "Skiing",
+   "Snowball",
+   "Thunder",
+   "Homework"
+  ]
+ },
+ "259": {
+  "q": "Name something you see at a wedding reception",
+  "a": [
+   [
+    "Cake",
+    26,
+    [
+     "wedding cake",
+     "slice of cake",
+     "piece of cake",
+     "cake tower",
+     "banquet cake",
+     "dessert cake",
+     "tiered cake",
+     "cupcake cake"
+    ]
+   ],
+   [
+    "Dress",
+    21,
+    [
+     "gown",
+     "bridal gown",
+     "wedding dress",
+     "bride dress",
+     "dress attire",
+     "white dress",
+     "formal dress",
+     "evening gown"
+    ]
+   ],
+   [
+    "Vows",
+    17,
+    [
+     "marital vows",
+     "nuptial vows",
+     "exchange vows",
+     "vow ceremony",
+     "pledges",
+     "promises",
+     "sacred vows",
+     "I do"
+    ]
+   ],
+   [
+    "Ring",
+    14,
+    [
+     "wedding ring",
+     "engagement ring",
+     "band",
+     "diamond ring",
+     "gold ring",
+     "ring set",
+     "anniversary ring",
+     "couple ring"
+    ]
+   ],
+   [
+    "Dancing",
+    9,
+    [
+     "first dance",
+     "dance floor",
+     "bride dance",
+     "groom dance",
+     "their dance",
+     "dance music",
+     "slow dance",
+     "party dance"
+    ]
+   ],
+   [
+    "Flowers",
+    7,
+    [
+     "bridal bouquet",
+     "floral decor",
+     "flower arrangements",
+     "petals",
+     "rose petals",
+     "fan flowers",
+     "flower girls",
+     "bouquets"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Toast",
+   "Cake Stand",
+   "Guestbook",
+   "Caterer",
+   "Honeymoon"
+  ]
+ },
+ "260": {
+  "q": "Name something kids collect from a cereal box",
+  "a": [
+   [
+    "Coupon Codes",
+    25,
+    [
+     "coupons",
+     "freebie",
+     "promo",
+     "codes",
+     "coupons",
+     "sweepstakes",
+     "promo codes",
+     "box top",
+     "box top coupons"
+    ]
+   ],
+   [
+    "cereal prizes",
+    21,
+    [
+     "prizes",
+     "toys",
+     "collector",
+     "figurines",
+     "stickers",
+     "prize inside",
+     "prize",
+     "mini toy",
+     "collectibles"
+    ]
+   ],
+   [
+    "Stickers",
+    16,
+    [
+     "stickers",
+     "sticker sheet",
+     "decals",
+     "labels",
+     "stickers sheets",
+     "graphic stickers",
+     "character stickers",
+     "sticker book"
+    ]
+   ],
+   [
+    "Trading Cards",
+    13,
+    [
+     "cards",
+     "card set",
+     "collectible cards",
+     "sports cards",
+     "pokemon cards",
+     "snap cards",
+     "trading decks",
+     "collectibles"
+    ]
+   ],
+   [
+    "Free Toy",
+    10,
+    [
+     "toy",
+     "mini toy",
+     "gift toy",
+     "prize toy",
+     "promo toy",
+     "freebie toy",
+     "little toy",
+     "bonus toy"
+    ]
+   ],
+   [
+    "Comic Book",
+    9,
+    [
+     "comic",
+     "graphic novel",
+     "flipbook",
+     "zine",
+     "mini comic",
+     "comic issue",
+     "storybook"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Pancakes",
+   "Backpack",
+   "Umbrella",
+   "Jacket",
+   "Sunglasses"
+  ]
+ },
+ "261": {
+  "q": "Name something people gift during Christmas",
+  "a": [
+   [
+    "Seasonal Scent",
+    29,
+    [
+     "holiday scent",
+     "pine air",
+     "fragrance",
+     "Christmas smell",
+     "scent",
+     "smell",
+     "candle scent",
+     "pine",
+     "evergreen scent",
+     "holiday aroma",
+     "fragrance",
+     "fresh pine"
+    ]
+   ],
+   [
+    "Picture Frame",
+    22,
+    [
+     "photo frame",
+     "frames",
+     "picture",
+     "photo",
+     "frame",
+     "gift frame",
+     "family frame",
+     "picture holder",
+     "gallery frame",
+     "decor frame",
+     "engraved frame",
+     "wooden frame"
+    ]
+   ],
+   [
+    "Sweater",
+    19,
+    [
+     "pull-over",
+     "knit",
+     "jumper",
+     "knitted top",
+     "sweatshirt",
+     "cardigan",
+     "knitwear",
+     "wool jumper",
+     "thermal",
+     "hoodie",
+     "cozy top"
+    ]
+   ],
+   [
+    "Candy Canes",
+    14,
+    [
+     "cane candy",
+     "peppermint sticks",
+     "red-and-white canes",
+     "mint candy",
+     "candy sticks",
+     "mint sticks",
+     "candy canes"
+    ]
+   ],
+   [
+    "Hot Chocolate",
+    10,
+    [
+     "cocoa",
+     "hot cocoa",
+     "cocoa mix",
+     "drinking chocolate",
+     "hot chocolate mix",
+     "cocoa mix",
+     "hot drink"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Ornament",
+   "Stocking",
+   "Tree",
+   "Gift Card",
+   "Lights"
+  ]
+ },
+ "262": {
+  "q": "Name something from a fairy tale that kids love to hear about",
+  "a": [
+   [
+    "Prince Charm",
+    26,
+    [
+     "Prince Charming",
+     "Cinderella’s Prince",
+     "White Knight",
+     "Prince"
+    ]
+   ],
+   [
+    "Magic Wand",
+    22,
+    [
+     "Wand",
+     "Wizards Wand",
+     "Magic Stick",
+     "Fairy Wand"
+    ]
+   ],
+   [
+    "Talking Frog",
+    17,
+    [
+     "Frog Prince",
+     "Frog",
+     "Toad",
+     "Singing Frog"
+    ]
+   ],
+   [
+    "Dragon Slain",
+    14,
+    [
+     "Dragon",
+     "Dragon Fight",
+     "Dragon Battle",
+     "Slain Dragon"
+    ]
+   ],
+   [
+    "Glass Slipper",
+    9,
+    [
+     "Cinderella Slipper",
+     "Slipper",
+     "Glass Shoe",
+     "Crystal Shoe"
+    ]
+   ],
+   [
+    "Magic Mirror",
+    7,
+    [
+     "Mirror",
+     "Talking Mirror",
+     "Magic Reflector",
+     "Mirror on Wall"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Piano",
+   "Broom",
+   "Crown",
+   "Castle",
+   "Princess",
+   "Sword"
+  ]
+ },
+ "263": {
+  "q": "Name something people save up for besides a rainy day",
+  "a": [
+   [
+    "Emergency Fund",
+    23,
+    [
+     "emergency fund",
+     "rainy day savings",
+     "savings cushion",
+     "savings for emergencies",
+     "cash reserve",
+     "financial cushion",
+     "money stash",
+     "savings account"
+    ]
+   ],
+   [
+    "Vacation Fund",
+    19,
+    [
+     "vacation fund",
+     "trip fund",
+     "holiday fund",
+     "travel savings",
+     "vacation savings",
+     "holiday savings",
+     "trip money",
+     "travel money"
+    ]
+   ],
+   [
+    "Down Payment",
+    16,
+    [
+     "down payment",
+     "initial payment",
+     "deposit",
+     "purchase equity",
+     "house payment",
+     "credit down",
+     "deposit money",
+     "upfront payment"
+    ]
+   ],
+   [
+    "New Car",
+    13,
+    [
+     "new car",
+     "car fund",
+     "auto savings",
+     "vehicle fund",
+     "car budget",
+     "auto budget",
+     "car money",
+     "payment for car"
+    ]
+   ],
+   [
+    "Tuition",
+    12,
+    [
+     "tuition",
+     "school tuition",
+     "college fund",
+     "education costs",
+     "scholar costs",
+     "tuition money",
+     "school funds",
+     "student fees"
+    ]
+   ],
+   [
+    "Home Renovation",
+    11,
+    [
+     "home reno fund",
+     "renovation savings",
+     "home improvement fund",
+     "renovation money",
+     "house upgrade fund",
+     "reno fund",
+     "home projects"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Lunch Money",
+   "Pocket Change",
+   "Gas Money",
+   "Pet Food",
+   "Library Fee"
+  ]
+ },
+ "264": {
+  "q": "Name something people do first thing in the morning",
+  "a": [
+   [
+    "Brush Teeth",
+    26,
+    [
+     "tooth brushing",
+     "brush teeth",
+     "Brush Teeths",
+     "Brushing Teeth",
+     "toothbrush"
+    ]
+   ],
+   [
+    "Wake Up",
+    21,
+    [
+     "rise",
+     "get up",
+     "awakening",
+     "getting up",
+     "rise and shine",
+     "awaken"
+    ]
+   ],
+   [
+    "Stretch",
+    17,
+    [
+     "morning stretch",
+     "body stretch",
+     "stretches",
+     "limber up",
+     "stretching"
+    ]
+   ],
+   [
+    "Drink Water",
+    14,
+    [
+     "water",
+     "glass of water",
+     "hydration",
+     "warm water",
+     "drink water"
+    ]
+   ],
+   [
+    "Make Bed",
+    9,
+    [
+     "tidy bed",
+     "bed making",
+     "neaten bed",
+     "straighten bed",
+     "secure bed"
+    ]
+   ],
+   [
+    "Coffee Time",
+    7,
+    [
+     "coffee",
+     "cup of coffee",
+     "espresso",
+     "joe",
+     "caffeine"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Alarm",
+   "Shower",
+   "Shave",
+   "Shower",
+   "Toast",
+   "Bike Ride"
+  ]
+ },
+ "265": {
+  "q": "Name something you’d bring to an office party",
+  "a": [
+   [
+    "Pizza",
+    27,
+    [
+     "pizza slices",
+     "pepperoni",
+     "cheese pizza",
+     "pizza party",
+     "deluxe pizza",
+     "pizza pie"
+    ]
+   ],
+   [
+    "Drinks",
+    22,
+    [
+     "soda",
+     "soft drinks",
+     "cocktails",
+     "beverages",
+     "water",
+     "juice"
+    ]
+   ],
+   [
+    "Cake",
+    17,
+    [
+     "dessert",
+     "birthday cake",
+     "sheet cake",
+     "cake",
+     "cupcake",
+     "cake slice"
+    ]
+   ],
+   [
+    "Games",
+    12,
+    [
+     "games",
+     "icebreakers",
+     "activities",
+     "fun games",
+     "team games",
+     "party games"
+    ]
+   ],
+   [
+    "Music",
+    9,
+    [
+     "songs",
+     "playlist",
+     "music",
+     "tunes",
+     "karaoke",
+     "band"
+    ]
+   ],
+   [
+    "Decor",
+    6,
+    [
+     "decorations",
+     "balloons",
+     "streamers",
+     "centerpieces",
+     "confetti",
+     "favors"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Printer",
+   "Clipboard",
+   "Laptop",
+   "Chair",
+   "Desk"
+  ]
+ },
+ "266": {
+  "q": "Name something people save up money for",
+  "a": [
+   [
+    "Emergency Fund",
+    25,
+    [
+     "emergency fund",
+     "rainy day fund",
+     "savings for emergencies",
+     "emergency savings",
+     "backup fund",
+     "financial cushion",
+     "contingency fund",
+     "unexpected costs",
+     "emergency stash",
+     "rainy day stash",
+     "emergency money"
+    ]
+   ],
+   [
+    "Vacation",
+    21,
+    [
+     "holiday",
+     "trip",
+     "travel fund",
+     "vacay",
+     "holiday fund",
+     "travel savings",
+     "budget trip",
+     "dream vacation",
+     "vacation money",
+     "vacation fund"
+    ]
+   ],
+   [
+    "Down Payment",
+    16,
+    [
+     "down payment",
+     "deposit",
+     "initial payment",
+     "purchase fund",
+     "house fund",
+     "mortgage down",
+     "big purchase fund",
+     "initial payment fund",
+     "buying fund",
+     "down payment savings"
+    ]
+   ],
+   [
+    "New Car",
+    13,
+    [
+     "car fund",
+     "new ride",
+     "car savings",
+     "car money",
+     "auto fund",
+     "new vehicle",
+     "vehicle fund",
+     "car fund savings",
+     "new wheels",
+     "car purchase"
+    ]
+   ],
+   [
+    "College Tuition",
+    10,
+    [
+     "tuition",
+     "college fund",
+     "education fund",
+     "college savings",
+     "tuition savings",
+     "college money",
+     "education money",
+     "tuition fund",
+     "higher ed fund",
+     "student fund"
+    ]
+   ],
+   [
+    "Home Renovation",
+    9,
+    [
+     "renovation fund",
+     "home upgrades",
+     "house improvements",
+     "renovation savings",
+     "home fund",
+     "improvement fund",
+     "renovation money",
+     "house project fund",
+     "home makeover fund",
+     "renovate fund"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Debt",
+   "Loans",
+   "Paycheck",
+   "Wallet",
+   "Grocery Money"
+  ]
+ },
+ "267": {
+  "q": "Name something you might see at an airport",
+  "a": [
+   [
+    "Security Check",
+    27,
+    [
+     "security",
+     "checkpoint",
+     "bag scan",
+     "metal detector",
+     "gate security",
+     "tsa",
+     "security line",
+     "screening"
+    ]
+   ],
+   [
+    "Terminal",
+    22,
+    [
+     "terminal",
+     "departure hall",
+     "gates",
+     "airport lounge",
+     "term"
+    ]
+   ],
+   [
+    "Luggage Carousel",
+    17,
+    [
+     "baggage claim",
+     "carrousel",
+     "belt",
+     "belt carousel",
+     "luggage belt",
+     "claim desk"
+    ]
+   ],
+   [
+    "Boarding Gate",
+    14,
+    [
+     "gate",
+     "boarding",
+     "gate number",
+     "departure gate",
+     "jet bridge"
+    ]
+   ],
+   [
+    "Baggage",
+    9,
+    [
+     "luggage",
+     "suitcase",
+     "bags",
+     "carry-on",
+     "checked bag",
+     "bag"
+    ]
+   ],
+   [
+    "Runway",
+    4,
+    [
+     "airstrip",
+     "landing strip",
+     "takeoff strip",
+     "paved path",
+     "airfield"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Duty Free",
+   "Flight Crew",
+   "Taxiway",
+   "Plane Seat"
+  ]
+ },
+ "268": {
+  "q": "Name something people lie about in everyday life",
+  "a": [
+   [
+    "Impolite Truth",
+    29,
+    [
+     "lie about",
+     "stretch the truth",
+     "white lie",
+     "fib",
+     "exaggeration",
+     "falsehood",
+     "not true",
+     "shave the truth",
+     "truth stretch",
+     "avoid the truth"
+    ]
+   ],
+   [
+    "Relationship Status",
+    24,
+    [
+     "dating",
+     "single status",
+     "on a date",
+     "partner",
+     "seeing someone",
+     "in a relationship",
+     "marital status",
+     "broke up",
+     "engaged",
+     "dating someone",
+     "in a relationship now"
+    ]
+   ],
+   [
+    "Age",
+    19,
+    [
+     "how old",
+     "age today",
+     "birthday age",
+     "older/younger",
+     "age range",
+     "age is",
+     "fake age",
+     "age claim",
+     "born year",
+     "age lie",
+     "age changed"
+    ]
+   ],
+   [
+    "Salary",
+    15,
+    [
+     "salary range",
+     "income",
+     "pay",
+     "money",
+     "earnings",
+     "budget",
+     "how much",
+     "salary bracket",
+     "paycheck",
+     "income level",
+     "salary claim"
+    ]
+   ],
+   [
+    "Never Remembered",
+    7,
+    [
+     "forgot",
+     "cant recall",
+     "memory lapse",
+     "forgotten",
+     "blanked",
+     "no idea",
+     "memory fail",
+     "didn't happen",
+     "misremember",
+     "misremembered"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Nice",
+   "Secret",
+   "Home",
+   "Party",
+   "Coffee"
+  ]
+ },
+ "269": {
+  "q": "Name something you might see at an airport security line",
+  "a": [
+   [
+    "TSA Agents",
+    26,
+    [
+     "tsa",
+     "security",
+     "agents",
+     "officers",
+     "screeners",
+     "security staff"
+    ]
+   ],
+   [
+    "Metal Detectors",
+    21,
+    [
+     "metal detector",
+     "walkthrough",
+     "scanners",
+     "body scanner",
+     "x-ray"
+    ]
+   ],
+   [
+    "Luggage Carts",
+    17,
+    [
+     "carts",
+     "trolleys",
+     "luggage trolley",
+     "baggage cart",
+     "wheelchair cart"
+    ]
+   ],
+   [
+    "Airport Monitors",
+    14,
+    [
+     "flight boards",
+     "departure boards",
+     "info screens",
+     "arrivals board",
+     "timed screens"
+    ]
+   ],
+   [
+    "Passport Control",
+    9,
+    [
+     "passport check",
+     "immigration",
+     "customs",
+     "passport booth",
+     "immigration desk"
+    ]
+   ],
+   [
+    "Security Pat-Down",
+    7,
+    [
+     "patdown",
+     "search",
+     "frisk",
+     "body check",
+     "line search"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Taxi Stand",
+   "Food Court",
+   "Airport Bar",
+   "Runway",
+   "Airbus A380"
+  ]
+ },
+ "270": {
+  "q": "Name a popular restaurant dish people order when they’re craving comfort food",
+  "a": [
+   [
+    "Mac and Cheese",
+    25,
+    [
+     "macaroni and cheese",
+     "mac n cheese",
+     "mac and cheese recipe",
+     "macaroni"
+    ]
+   ],
+   [
+    "Pizza Slice",
+    20,
+    [
+     "pizza",
+     "slice of pizza",
+     "pepperoni slice",
+     "thin crust"
+    ]
+   ],
+   [
+    "Burger",
+    17,
+    [
+     "hamburger",
+     "cheeseburger",
+     "beef burger",
+     "burger bun"
+    ]
+   ],
+   [
+    "Fried Chicken",
+    14,
+    [
+     "fried chicken",
+     "crispy chicken",
+     "chicken tenders",
+     "coated chicken"
+    ]
+   ],
+   [
+    "Spaghetti",
+    11,
+    [
+     "pasta",
+     "spaghetti pasta",
+     "spaghettI with sauce",
+     "carbonara"
+    ]
+   ],
+   [
+    "Salad Bowl",
+    8,
+    [
+     "salad",
+     "vegetable salad",
+     "greens",
+     "chef salad"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Sushi",
+   "Tacos",
+   "Ice cream",
+   "Steak",
+   "Ramen"
+  ]
+ },
+ "271": {
+  "q": "Name something you’d buy for a car that helps you drive better",
+  "a": [
+   [
+    "Seat Cushion",
+    24,
+    [
+     "car seat cushion",
+     "seat pad",
+     "cushion",
+     "driver seat cushion",
+     "comfort seat"
+    ]
+   ],
+   [
+    "Tire Pressure",
+    21,
+    [
+     "tire gauge",
+     "air pressure",
+     "tire PSI",
+     "tire pressure gauge",
+     "air check"
+    ]
+   ],
+   [
+    "GPS Device",
+    17,
+    [
+     "navigation",
+     "satnav",
+     "GPS",
+     "maps device",
+     "car navigator"
+    ]
+   ],
+   [
+    "Car Charger",
+    13,
+    [
+     "phone charger",
+     "usb charger",
+     "cigarette lighter charger",
+     "usb adapter",
+     "car charger"
+    ]
+   ],
+   [
+    "Windshield Wipers",
+    11,
+    [
+     "wipers",
+     "windshield blades",
+     "windshield wiper blades",
+     "car wipers",
+     "blade"
+    ]
+   ],
+   [
+    "Dash Cam",
+    8,
+    [
+     "dashboard camera",
+     "car camera",
+     "driving cam",
+     "recording cam",
+     "dash cam"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Sun Visor",
+   "Radio",
+   "Air Freshener",
+   "Floor Mat",
+   "Cup Holder"
+  ]
+ },
+ "272": {
+  "q": "Name something you might hear around a camping fire",
+  "a": [
+   [
+    "Crackling Fire",
+    28,
+    [
+     "crackling",
+     "fire sound",
+     "campfire crackle",
+     "campfire crackling",
+     "fire crackle"
+    ]
+   ],
+   [
+    "S’mores",
+    22,
+    [
+     "smores",
+     "s'mores",
+     "smore",
+     "smore s",
+     "s more"
+    ]
+   ],
+   [
+    "Starry Sky",
+    17,
+    [
+     "stars",
+     "starry night",
+     "night sky",
+     "starlit sky",
+     "star light"
+    ]
+   ],
+   [
+    "Mosquitoes",
+    13,
+    [
+     "mosquitos",
+     "mosquitos",
+     "no-see-ums",
+     "bugs",
+     "gnats"
+    ]
+   ],
+   [
+    "Tents",
+    8,
+    [
+     "tent",
+     "tents",
+     "camp tents",
+     "camping tents",
+     "tent setup"
+    ]
+   ],
+   [
+    "Marshmallows",
+    6,
+    [
+     "marshmallows",
+     "mallows",
+     "mallow",
+     "toasted marshmallows",
+     "sweet marshmallows"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Park Bench",
+   "Airplane",
+   "Office Chair",
+   "Subway",
+   "Mall"
+  ]
+ },
+ "273": {
+  "q": "Name something fans scream at a sports game",
+  "a": [
+   [
+    "Goal",
+    25,
+    [
+     "goal!",
+     "score",
+     "Gooooal",
+     "a goal",
+     "net",
+     "score goal",
+     "goal!!"
+    ]
+   ],
+   [
+    "Foul",
+    20,
+    [
+     "foul play",
+     "foul ball",
+     "foul!!!",
+     "penalty",
+     "foul call",
+     "cheap foul",
+     "fouls"
+    ]
+   ],
+   [
+    "Cheer",
+    17,
+    [
+     "cheering",
+     "hype",
+     "rah-rah",
+     "spirit",
+     "chants",
+     "yell",
+     "crowd cheer",
+     "cheers"
+    ]
+   ],
+   [
+    "Mascot",
+    14,
+    [
+     "mascot",
+     "mascot suit",
+     "team mascot",
+     "funny guy",
+     "mascot character",
+     "costumed mascot",
+     "mascots"
+    ]
+   ],
+   [
+    "Win",
+    10,
+    [
+     "victory",
+     "we won",
+     "champion",
+     "take the game",
+     "beat them",
+     "winning",
+     "we did it"
+    ]
+   ],
+   [
+    "Timeout",
+    7,
+    [
+     "timeout",
+     "time-out",
+     "ref timeout",
+     "pause",
+     "breather",
+     "stop the clock",
+     "to timeout"
+    ]
+   ]
+  ],
+  "wrong": [
+   "A hat",
+   "Hot dog",
+   "Basket",
+   "Balloon",
+   "Coach"
+  ]
+ },
+ "274": {
+  "q": "Name something in music that people hum or sing besides the words",
+  "a": [
+   [
+    "Hook",
+    25,
+    [
+     "catchy hook",
+     "chorus hook",
+     "hook line",
+     "instrumental hook",
+     "hook melody",
+     "hook phrase",
+     "magnetic hook",
+     "hooky tune",
+     "hook part",
+     "catchphrase hook"
+    ]
+   ],
+   [
+    "Beat",
+    20,
+    [
+     "rhythm",
+     "tempo",
+     "beat drop",
+     "drumbeat",
+     "pulses",
+     "groove",
+     "beat pattern",
+     "backbeat",
+     "beat box",
+     "beat track"
+    ]
+   ],
+   [
+    "Chorus",
+    17,
+    [
+     "refrain",
+     "hook",
+     "chorus line",
+     "chorus part",
+     "sing-along",
+     "chant",
+     "singable chorus",
+     "main chorus",
+     "chorus section",
+     "chorus melody"
+    ]
+   ],
+   [
+    "Melody",
+    14,
+    [
+     "tune",
+     "air",
+     "melodic line",
+     "theme",
+     "melodic contour",
+     "phrase",
+     "lead melody",
+     "main melody",
+     "tune line",
+     "singable tune"
+    ]
+   ],
+   [
+    "Verse",
+    11,
+    [
+     "lyric line",
+     "stanza",
+     "verse part",
+     "verse section",
+     "verse lyrics",
+     "couplet",
+     "verse line",
+     "verse passage",
+     "song verse",
+     "opening verse"
+    ]
+   ],
+   [
+    "Bassline",
+    8,
+    [
+     "bass line",
+     "low end",
+     "bass groove",
+     "bass rhythm",
+     "deep bass",
+     "bass melody",
+     "bass run",
+     "bass pattern",
+     "bass guitar",
+     "sub bass"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Dance",
+   "Guitar",
+   "Sax",
+   "Mic",
+   "Stage"
+  ]
+ },
+ "275": {
+  "q": "Name something you’d take camping that doubles as a light source",
+  "a": [
+   [
+    "Headlamp",
+    24,
+    [
+     "flashlight",
+     "lamp",
+     "torch",
+     "camping light",
+     "head light",
+     "handsfree light"
+    ]
+   ],
+   [
+    "Lantern",
+    20,
+    [
+     "camping lantern",
+     "glow",
+     "lantern light",
+     "oil lantern",
+     "battery lantern",
+     "camp light"
+    ]
+   ],
+   [
+    "Flashlight",
+    17,
+    [
+     "torch",
+     "hand torch",
+     "flash lamp",
+     "battery light",
+     "mini light",
+     "dark light"
+    ]
+   ],
+   [
+    "Firestarter",
+    13,
+    [
+     "lighter",
+     "matches",
+     "firestarter kit",
+     "flint",
+     "fire wand",
+     "spark"
+    ]
+   ],
+   [
+    "Candle",
+    11,
+    [
+     "camping candle",
+     "wax light",
+     "tea light",
+     "pillar candle",
+     "spare candle",
+     "candle stick"
+    ]
+   ],
+   [
+    "Glow Stick",
+    10,
+    [
+     "glowstick",
+     "glow stick",
+     "glow wand",
+     "light stick",
+     "chem light",
+     "neon stick"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Map",
+   "Tent",
+   "Bike",
+   "Water",
+   "Snack",
+   "Hat"
+  ]
+ },
+ "276": {
+  "q": "Name a tech gadget people can’t live without",
+  "a": [
+   [
+    "Smartphone",
+    25,
+    [
+     "cellphone",
+     "mobile phone",
+     "phone",
+     "iPhone",
+     "Android"
+    ]
+   ],
+   [
+    "Laptop",
+    20,
+    [
+     "notebook",
+     "computer",
+     "PC",
+     "Mac",
+     "laptop computer"
+    ]
+   ],
+   [
+    "Headphones",
+    17,
+    [
+     "earbuds",
+     "noise canceling",
+     "airpods",
+     "headset",
+     "phones"
+    ]
+   ],
+   [
+    "Smartwatch",
+    14,
+    [
+     "watch",
+     "Apple Watch",
+     "Galaxy Watch",
+     "wearable"
+    ]
+   ],
+   [
+    "charger",
+    11,
+    [
+     "charger",
+     "phone charger",
+     "usb charger",
+     "charging cable",
+     "power brick"
+    ]
+   ],
+   [
+    "Power Bank",
+    8,
+    [
+     "powerbank",
+     "portable charger",
+     "battery pack",
+     "external battery",
+     "charger bank"
+    ]
+   ]
+  ],
+  "wrong": [
+   "WiFi",
+   "Laptop Case",
+   "Camera",
+   "Mouse"
+  ]
+ },
+ "277": {
+  "q": "Name something you’d use at an office party or after work social",
+  "a": [
+   [
+    "Bingo Card",
+    27,
+    [
+     "bingo",
+     "game card",
+     "bingo sheet",
+     "bingo board",
+     "bingo token",
+     "bingo board game",
+     "bingo prize"
+    ]
+   ],
+   [
+    "Potluck Dish",
+    22,
+    [
+     "potluck",
+     "dish",
+     "food",
+     "snack",
+     "casserole",
+     "salad",
+     "main course",
+     "finger food"
+    ]
+   ],
+   [
+    "Secret Santa",
+    17,
+    [
+     "gift exchange",
+     "secret santa",
+     "santa",
+     "gift swap",
+     "white elephant",
+     "present swap",
+     "holiday trade"
+    ]
+   ],
+   [
+    "Photo Booth",
+    12,
+    [
+     "photo booth",
+     "pic booth",
+     "selfie booth",
+     "photobooth",
+     "pictures",
+     "photo wall",
+     "instant photos"
+    ]
+   ],
+   [
+    "DJ Playlist",
+    9,
+    [
+     "music",
+     "playlist",
+     "dance mix",
+     "radio",
+     "song list",
+     "set list",
+     "music mix"
+    ]
+   ],
+   [
+    "Decorations",
+    6,
+    [
+     "decor",
+     "decorations",
+     "table decor",
+     "streamers",
+     "balloons",
+     "garlands",
+     "festive decor"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Office",
+   "Lunch",
+   "Boss",
+   "Computer",
+   "Printer"
+  ]
+ },
+ "278": {
+  "q": "Name something that superstition says brings good luck",
+  "a": [
+   [
+    "Four-Leaf Clover",
+    23,
+    [
+     "4 leaf clover",
+     "4-leaf clover",
+     "four leaf clover",
+     "fourleaf clover",
+     "clover with four leaves",
+     "luck clover"
+    ]
+   ],
+   [
+    "Rabbit’s Foot",
+    19,
+    [
+     "rabbit foot",
+     "rabbitfoot",
+     "rabbit foot charm",
+     "fur foot"
+    ]
+   ],
+   [
+    "Lucky Penny",
+    16,
+    [
+     "penny heads up",
+     "find a penny",
+     "lucky penny",
+     "one cent",
+     "copper penny"
+    ]
+   ],
+   [
+    "Knock on Wood",
+    13,
+    [
+     "knock wood",
+     "wood knock",
+     "wooden knock",
+     "knock on timber"
+    ]
+   ],
+   [
+    "Horseshoe",
+    12,
+    [
+     "horseshoe",
+     "horseshoes",
+     "lucky horseshoe",
+     "U-shape",
+     "iron shoe"
+    ]
+   ],
+   [
+    "Ladybug",
+    11,
+    [
+     "ladybird",
+     "lady bug",
+     "ladybug charm",
+     "ladybird",
+     "seven-spots"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Coin",
+   "Charm",
+   "Prayer",
+   "Candle",
+   "Wish"
+  ]
+ },
+ "279": {
+  "q": "Name something people do with their phones that isn’t calling or texting",
+  "a": [
+   [
+    "Screen Time",
+    25,
+    [
+     "screen time",
+     "phone usage",
+     "screen time limit",
+     "phone time",
+     "usage time",
+     "digital time",
+     "screen hours"
+    ]
+   ],
+   [
+    "Charge It",
+    20,
+    [
+     "charging",
+     "charge",
+     "phone charging",
+     "charging cable",
+     "charger",
+     "plug in",
+     "recharge"
+    ]
+   ],
+   [
+    "Take Photos",
+    17,
+    [
+     "photos",
+     "pictures",
+     "camera",
+     "snapshots",
+     "taking pics",
+     "shoot photos"
+    ]
+   ],
+   [
+    "Face ID",
+    13,
+    [
+     "unlock with face",
+     "facial recognition",
+     "face unlock",
+     "biometric unlock",
+     "face id",
+     "unlock"
+    ]
+   ],
+   [
+    "Text Snapshots",
+    11,
+    [
+     "text messages",
+     "sms",
+     "texts",
+     "message",
+     "texting"
+    ]
+   ],
+   [
+    "Play Music",
+    8,
+    [
+     "stream music",
+     "music",
+     "audio",
+     "songs",
+     "playlists"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Laptop",
+   "Tablet",
+   "Smartwatch",
+   "Laptop Computer",
+   "Desktop"
+  ]
+ },
+ "280": {
+  "q": "Name something people do during a morning routine",
+  "a": [
+   [
+    "Wake Up",
+    22,
+    [
+     "getting up",
+     "rise",
+     "alarm goes off",
+     "arise",
+     "rouse",
+     "out of bed"
+    ]
+   ],
+   [
+    "Brush Teeth",
+    19,
+    [
+     "tooth brushing",
+     "brush",
+     "teeth",
+     "brushing teeth",
+     "dental care",
+     "oral care"
+    ]
+   ],
+   [
+    "Drink Coffee",
+    17,
+    [
+     "coffee",
+     "cup of joe",
+     "cafe",
+     "latte",
+     "espresso",
+     "cappuccino",
+     "joe"
+    ]
+   ],
+   [
+    "Shower Time",
+    14,
+    [
+     "shower",
+     "bath",
+     "wash up",
+     "bath time",
+     "cleanse",
+     "rinse"
+    ]
+   ],
+   [
+    "Get Dressed",
+    11,
+    [
+     "put on clothes",
+     "dress",
+     "outfit",
+     "dress up",
+     "clothes"
+    ]
+   ],
+   [
+    "Eat Breakfast",
+    10,
+    [
+     "breakfast",
+     "morning meal",
+     "cereal",
+     "toast",
+     "eggs",
+     "bacon"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Alarm",
+   "commute",
+   "Home",
+   "Phone",
+   "Music"
+  ]
+ },
+ "281": {
+  "q": "Name something that is annoying that you can’t stop thinking about",
+  "a": [
+   [
+    "Loud Neighbors",
+    20,
+    [
+     "loud neighbors",
+     "noisy neighbors",
+     "neighbors",
+     "rude neighbors",
+     "constant noise",
+     "loud people",
+     "neighbor noise",
+     "noisy house",
+     "noise at night"
+    ]
+   ],
+   [
+    "Pop-Up Ads",
+    17,
+    [
+     "popups",
+     "ads",
+     "advertisements",
+     "advertising",
+     "intrusive ads",
+     "ad banners",
+     "window ads",
+     "six popups",
+     "popup windows"
+    ]
+   ],
+   [
+    "Car Alarm",
+    14,
+    [
+     "alarm",
+     "car alarm",
+     "alarm going off",
+     "automobile alarm",
+     "sirens",
+     "car siren",
+     "vehicle alarm",
+     "alarm sound"
+    ]
+   ],
+   [
+    "Phone Notifications",
+    12,
+    [
+     "notifications",
+     "phone alerts",
+     "notification buzz",
+     "alerts",
+     "push notices",
+     "notifications on phone",
+     "phone alerts"
+    ]
+   ],
+   [
+    "Weather Forecasts",
+    9,
+    [
+     "weather reports",
+     "weather updates",
+     "forecasts",
+     "weather alerts",
+     "rain forecast",
+     "storm warnings"
+    ]
+   ],
+   [
+    "Slow Internet",
+    8,
+    [
+     "lag",
+     "buffering",
+     "low speed",
+     "no bandwidth",
+     "slow connection",
+     "loading",
+     "internet slow"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Noise",
+   "Traffic",
+   "Heat",
+   "Lights",
+   "Stink"
+  ]
+ },
+ "282": {
+  "q": "Name something you’d see at an airport terminal",
+  "a": [
+   [
+    "Moving Walkway",
+    26,
+    [
+     "moving walkway",
+     "people mover",
+     "conveyor",
+     "travelator"
+    ]
+   ],
+   [
+    "Baggage Carousel",
+    21,
+    [
+     "luggage carousel",
+     "bag carousel",
+     "belt"
+    ]
+   ],
+   [
+    "Departure Board",
+    17,
+    [
+     "flight board",
+     "meatboard",
+     "screen"
+    ]
+   ],
+   [
+    "Security Check",
+    14,
+    [
+     "security gate",
+     "checkpoint",
+     "bag check",
+     "tsa line"
+    ]
+   ],
+   [
+    "Waiting Area",
+    9,
+    [
+     "lounge",
+     "gate lounge",
+     "seat area"
+    ]
+   ],
+   [
+    "Airport Wifi",
+    7,
+    [
+     "wifi",
+     "internet",
+     "hotspot"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Luggage",
+   "Ticket",
+   "Plane",
+   "Runway",
+   "Airline"
+  ]
+ },
+ "283": {
+  "q": "Name something you might do on a camping trip to unwind",
+  "a": [
+   [
+    "Stargaze",
+    27,
+    [
+     "star gaze",
+     "stargazing",
+     "watch stars",
+     "stargazing tonight",
+     "look at the stars",
+     "night sky"
+    ]
+   ],
+   [
+    "Roast Marshmallows",
+    22,
+    [
+     "roast mallows",
+     "toasted marshmallows",
+     "mallow roast",
+     "roasting marshmallows",
+     "toast marshmallows",
+     "marshmallow roast"
+    ]
+   ],
+   [
+    "Hike Trails",
+    17,
+    [
+     "go hiking",
+     "trail walk",
+     "nature hike",
+     "trek",
+     "hiking",
+     "trail hike"
+    ]
+   ],
+   [
+    "Tell Ghost Stories",
+    14,
+    [
+     "campfire stories",
+     "ghost tale",
+     "story circle",
+     "spooky stories",
+     "campfire lore",
+     "ghosts"
+    ]
+   ],
+   [
+    "Pack Snacks",
+    8,
+    [
+     "snack pack",
+     "food",
+     "snacks",
+     "camp snacks",
+     "trail treats",
+     "camping bites"
+    ]
+   ],
+   [
+    "Fish If Nearby",
+    6,
+    [
+     "fishing",
+     "catch fish",
+     "angling",
+     "rod fishing",
+     "catching fish",
+     "fishing trip"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Flashlight",
+   "Tent",
+   "Campfire",
+   "Water",
+   "Map"
+  ]
+ },
+ "284": {
+  "q": "Name a guilty pleasure you secretly enjoy watching",
+  "a": [
+   [
+    "Trashy Reality",
+    20,
+    [
+     "guilty reality",
+     "trash TV",
+     "reality show",
+     "reality TV",
+     "lowbrow show",
+     "mindless TV"
+    ]
+   ],
+   [
+    "Cheesy Romance",
+    18,
+    [
+     "romance",
+     "romcom",
+     "romantic comedy",
+     "romance film",
+     "romance novel",
+     "chick flick"
+    ]
+   ],
+   [
+    "Soap Opera",
+    16,
+    [
+     "soap",
+     "soapies",
+     "evening soap",
+     "serial",
+     "drama"
+    ]
+   ],
+   [
+    "Reality Competition",
+    14,
+    [
+     "competition show",
+     "reality contest",
+     "challenge show",
+     "survivor style",
+     "game show"
+    ]
+   ],
+   [
+    "Sweet Corner",
+    12,
+    [
+     "dessert",
+     "desserts",
+     "sweets",
+     "sweet treat",
+     "cookie",
+     "cake"
+    ]
+   ],
+   [
+    "Cartoon Rewatch",
+    10,
+    [
+     "old cartoons",
+     "cartoon rerun",
+     "animated show",
+     "anime",
+     "toon"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Sports Drink",
+   "Double Espresso",
+   "Workout App",
+   "Stock Tips",
+   "Outdoor Hike"
+  ]
+ },
+ "285": {
+  "q": "Name something that’s annoying when it’s stuck in your teeth",
+  "a": [
+   [
+    "Popcorn Kernel",
+    24,
+    [
+     "popcorn",
+     "kernel in teeth",
+     "tooth kernel",
+     "kernel snag",
+     "snagged kernel",
+     "popcorn piece",
+     "crunchy bit"
+    ]
+   ],
+   [
+    "Noise From Neighbor",
+    20,
+    [
+     "loud neighbor",
+     "thunder from next door",
+     "noisy neighbor",
+     "wall pounding",
+     "creak from wall",
+     "neighbor chatter"
+    ]
+   ],
+   [
+    "Slow Internet",
+    17,
+    [
+     "buffering",
+     "lag",
+     "low speed",
+     "wifi lag",
+     "internet down",
+     "slow connection",
+     "loading icon"
+    ]
+   ],
+   [
+    "Phone Notifications",
+    14,
+    [
+     "alerts",
+     "pings",
+     "buzz",
+     "notifications",
+     "phone buzz",
+     "popups"
+    ]
+   ],
+   [
+    "Light Glares",
+    10,
+    [
+     "glare",
+     "shine",
+     "reflection",
+     "door light",
+     "blinding light",
+     "sun glare"
+    ]
+   ],
+   [
+    "Rain On Roof",
+    8,
+    [
+     "rain tapping",
+     "drip",
+     "rain on roof",
+     "storm noise",
+     "raindrops"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Door",
+   "Window",
+   "Chair",
+   "Dog",
+   "Pen"
+  ]
+ },
+ "286": {
+  "q": "Name something you do during a morning routine",
+  "a": [
+   [
+    "Brush Teeth",
+    25,
+    [
+     "tooth brushing",
+     "brush teeth",
+     "brush teeths",
+     "toothbrush",
+     "Morning Brush",
+     "oral care"
+    ]
+   ],
+   [
+    "Wash Face",
+    21,
+    [
+     "face wash",
+     "clean face",
+     "facial wash",
+     "wash up",
+     "wash face"
+    ]
+   ],
+   [
+    "Drink Water",
+    16,
+    [
+     "water",
+     "glass water",
+     "hydrate",
+     "sips water",
+     "morning water"
+    ]
+   ],
+   [
+    "Coffee Time",
+    13,
+    [
+     "coffee",
+     "cup of joe",
+     "caffeine",
+     "latte",
+     "brew coffee"
+    ]
+   ],
+   [
+    "Shower",
+    10,
+    [
+     "shower time",
+     "bath",
+     "shower routine",
+     "bath/shower"
+    ]
+   ],
+   [
+    "Get Dressed",
+    9,
+    [
+     "dress",
+     "put clothes on",
+     "outfit",
+     "get ready"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Alarm Ring",
+   "Toast",
+   "Breakfast",
+   "Stretch",
+   "Shower Cap"
+  ]
+ },
+ "287": {
+  "q": "Name something that is annoying to deal with",
+  "a": [
+   [
+    "Loud Neighbors",
+    27,
+    [
+     "loud neighbors",
+     "noisy neighbors",
+     "neighborhood noise",
+     "neighbor noise",
+     "noisy people",
+     "unbearable noise",
+     "constant banging",
+     "early morning noise",
+     "neighborhood disruption",
+     "clicking pipes",
+     "sound of arguing"
+    ]
+   ],
+   [
+    "Slow Internet",
+    22,
+    [
+     "slow wifi",
+     "slow connection",
+     "loading pages",
+     "buffering",
+     "unreliable internet",
+     "dead wifi",
+     "laggy internet",
+     "internet that lags",
+     "slow network",
+     "stuttering video",
+     "low bandwidth"
+    ]
+   ],
+   [
+    "Traffic Jams",
+    17,
+    [
+     "traffic",
+     "rush hour",
+     "long commute",
+     "car congestion",
+     "gridlock",
+     "stop-and-go",
+     "bumper to bumper",
+     "highway delay",
+     "traffic backups",
+     "city traffic",
+     "jammed roads"
+    ]
+   ],
+   [
+    "Phone Battery",
+    14,
+    [
+     "dead phone",
+     "low battery",
+     "phone dying",
+     "battery drain",
+     "rapid battery drain",
+     "phone runs out",
+     "battery low",
+     "power drain",
+     "phone power loss",
+     "short battery life"
+    ]
+   ],
+   [
+    "Weak Signal",
+    9,
+    [
+     "no signal",
+     "dead zone",
+     "lost signal",
+     "low signal",
+     "poor reception",
+     "signal drops",
+     "bars gone",
+     "no bars",
+     "bad reception",
+     "unreliable signal"
+    ]
+   ],
+   [
+    "Bad Service",
+    4,
+    [
+     "terrible service",
+     "poor service",
+     "bad customer service",
+     "rude service",
+     "unhelpful staff",
+     "slow service",
+     "no help",
+     "ineffective service",
+     "rude clerk",
+     "bad assistance"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Sunny Day",
+   "Free WiFi",
+   "Open Window",
+   "Polite Neighbor",
+   "Quiet Street"
+  ]
+ },
+ "288": {
+  "q": "Name something people do during summer vacation that’s fun and easy",
+  "a": [
+   [
+    "Beach Volleyball",
+    26,
+    [
+     "beach volleyball",
+     "volleyball on sand",
+     "sand volleyball",
+     "vball",
+     "vb"
+    ]
+   ],
+   [
+    "Swimming",
+    22,
+    [
+     "swim",
+     "swimming",
+     "pool",
+     "lake swim",
+     "bathing"
+    ]
+   ],
+   [
+    "BBQ Party",
+    17,
+    [
+     "barbecue",
+     "cookout",
+     "bbq",
+     "grill out",
+     "barbie",
+     "cook up"
+    ]
+   ],
+   [
+    "Ice Cream",
+    13,
+    [
+     "icecream",
+     "ice-cream",
+     "gelato",
+     "soft serve",
+     "cone",
+     "sweet treat"
+    ]
+   ],
+   [
+    "Sundown Walk",
+    9,
+    [
+     "evening stroll",
+     "sunset walk",
+     "night stroll",
+     "stroll",
+     "walk"
+    ]
+   ],
+   [
+    "Road Trip",
+    6,
+    [
+     "driving trip",
+     "car trip",
+     "vacation road trip",
+     "road tour",
+     "journey"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Snowman",
+   "Library",
+   "Snowball",
+   "Desk",
+   "Raincoat"
+  ]
+ },
+ "289": {
+  "q": "Name something you might do to start your morning off right",
+  "a": [
+   [
+    "Stretch",
+    26,
+    [
+     "stretching",
+     "stretches",
+     "body stretch",
+     "morning stretch",
+     "arm stretch",
+     "leg stretch"
+    ]
+   ],
+   [
+    "Brush Teeth",
+    21,
+    [
+     "toothbrush",
+     "brushing",
+     "brush",
+     "teeth brushing",
+     "dental care",
+     "oral hygiene"
+    ]
+   ],
+   [
+    "Drink Water",
+    18,
+    [
+     "water",
+     "glass of water",
+     "hydrate",
+     "hydration",
+     "sip water",
+     "water first thing"
+    ]
+   ],
+   [
+    "Coffee",
+    13,
+    [
+     "coffee",
+     "cup of joe",
+     "espresso",
+     "latte",
+     "cafe",
+     "brew"
+    ]
+   ],
+   [
+    "Shower",
+    9,
+    [
+     "shower",
+     "bath",
+     "wash up",
+     "bathroom",
+     "morning wash"
+    ]
+   ],
+   [
+    "Breakfast",
+    7,
+    [
+     "breakfast",
+     "eat breakfast",
+     "morning meal",
+     "cereal",
+     "toast",
+     "eggs"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Bed",
+   "Alarm",
+   "Phone",
+   "News",
+   "Email"
+  ]
+ },
+ "290": {
+  "q": "Name a popular sport people love to watch on TV",
+  "a": [
+   [
+    "Football",
+    23,
+    [
+     "Soccer",
+     "American Football",
+     "Gridiron",
+     "NFL",
+     "Football Game",
+     "Football Matches",
+     "Soccer Game",
+     "Sports Football",
+     "Football Season"
+    ]
+   ],
+   [
+    "Basketball",
+    18,
+    [
+     "NBA",
+     "Hoops",
+     "Basket",
+     "Basketball Game",
+     "Basketball Match",
+     "BBall",
+     "Basketball Season",
+     "Pro Basketball"
+    ]
+   ],
+   [
+    "Baseball",
+    14,
+    [
+     "Baseball Game",
+     "MLB",
+     "Pitching",
+     "Baseball Match",
+     "Diamond Sport",
+     "Baseball Season",
+     "America’s Pastime"
+    ]
+   ],
+   [
+    "Tennis",
+    12,
+    [
+     "Lawn Tennis",
+     "Court Tennis",
+     "Grand Slam",
+     "Tennis Match",
+     "ATP",
+     "WTA",
+     "Tennis Game"
+    ]
+   ],
+   [
+    "Soccer",
+    9,
+    [
+     "Football",
+     "Fútbol",
+     "World Cup",
+     "Soccer Game",
+     "Football Match",
+     "Soccer Match",
+     "Global Soccer"
+    ]
+   ],
+   [
+    "Golf",
+    7,
+    [
+     "Golfing",
+     "PGA",
+     "Golf Tournament",
+     "Golf Round",
+     "Mini Golf",
+     "Professional Golf"
+    ]
+   ],
+   [
+    "Hockey",
+    6,
+    [
+     "Ice Hockey",
+     "NHL",
+     "Hockey Game",
+     "Puck",
+     "Hockey Match",
+     "Ice Hockey Game"
+    ]
+   ],
+   [
+    "Cricket",
+    4,
+    [
+     "Test Match",
+     "ODI",
+     "T20",
+     "Cricket Match",
+     "Cricket Game",
+     "World Cup Cricket"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Chess",
+   "Rugby",
+   "Swimming",
+   "Running",
+   "Cycling"
+  ]
+ },
+ "291": {
+  "q": "Name something spooky you might see on Halloween night",
+  "a": [
+   [
+    "Black Cat",
+    27,
+    [
+     "blackcat",
+     "black-cat",
+     "Black Cat",
+     "Cats",
+     "Black Cats",
+     "felis"
+    ]
+   ],
+   [
+    "Candy Corn",
+    22,
+    [
+     "candycorn",
+     "Corn Candy",
+     "Halloween Candy",
+     "Candy Corns",
+     "Candy Corns"
+    ]
+   ],
+   [
+    "Jack O Lantern",
+    17,
+    [
+     "jackolantern",
+     "jack-o-lantern",
+     "lantern",
+     "pumpkin lantern",
+     "jack o lantern"
+    ]
+   ],
+   [
+    "Spider Web",
+    14,
+    [
+     "spiderweb",
+     "cobweb",
+     "web",
+     "webbing",
+     "cobwebs",
+     "spideyweb"
+    ]
+   ],
+   [
+    "Witch Hat",
+    9,
+    [
+     "witchhat",
+     "witch’s hat",
+     "witch hat",
+     "pointed hat",
+     "witchcap"
+    ]
+   ],
+   [
+    "Skeleton",
+    6,
+    [
+     "skeleton",
+     "bone figure",
+     "skeletal figure",
+     "bone man",
+     "skelly",
+     "skeletons"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Broom",
+   "Zombie",
+   "Haunted House",
+   "Pumpkin Pie",
+   "Ghoul",
+   "Mask"
+  ]
+ },
+ "292": {
+  "q": "Name something you’d do at an office party that everyone expects",
+  "a": [
+   [
+    "Secret Santa",
+    23,
+    [
+     "secret_santa",
+     "secret-santa",
+     "gift exchange",
+     "gift swap",
+     "Santa",
+     "SecretSantas"
+    ]
+   ],
+   [
+    "Dance Battle",
+    19,
+    [
+     "dance-off",
+     "dance contest",
+     "boogie",
+     "dance duel",
+     "dance fight",
+     "twist",
+     "dance"
+    ]
+   ],
+   [
+    "Photo Booth",
+    16,
+    [
+     "photo booth",
+     "pics booth",
+     "selfie booth",
+     "photo wall",
+     "funny pics",
+     "prop booth",
+     "camera booth"
+    ]
+   ],
+   [
+    "Karaoke",
+    13,
+    [
+     "karaoke",
+     "sing-along",
+     "singing",
+     "microphone",
+     "sing",
+     "karaoké"
+    ]
+   ],
+   [
+    "Food Truck",
+    12,
+    [
+     "food truck",
+     "snack truck",
+     "taco truck",
+     "pizza truck",
+     "catering cart",
+     "food cart"
+    ]
+   ],
+   [
+    "Secret Recipe",
+    11,
+    [
+     "recipe swap",
+     "bring a dish",
+     "recipe share",
+     "food secret",
+     "family recipe",
+     "favorite dish"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Boring",
+   "Agenda",
+   "PowerPoint",
+   "Coffee",
+   "Meeting"
+  ]
+ },
+ "293": {
+  "q": "Name something a doctor might ask about during a checkup",
+  "a": [
+   [
+    "Medical History",
+    25,
+    [
+     "health history",
+     "previous illnesses",
+     "past illnesses",
+     "past medical history",
+     "med history",
+     "history of present illness",
+     "PMH",
+     "family history",
+     "FH",
+     "med conditions",
+     "health record"
+    ]
+   ],
+   [
+    "Blood Pressure",
+    21,
+    [
+     "BP",
+     "blood pressure check",
+     "systolic",
+     "diastolic",
+     "hypertension risk",
+     "BP reading",
+     "blood pressure reading",
+     "pressure numbers",
+     "heart pressure",
+     "arterial pressure"
+    ]
+   ],
+   [
+    "Allergies",
+    16,
+    [
+     "allergic reactions",
+     "medicine allergies",
+     "drug allergies",
+     "food allergies",
+     "allergy list",
+     "allergic to",
+     "no allergies",
+     "allergy notes",
+     "sensitivity"
+    ]
+   ],
+   [
+    "Medications",
+    13,
+    [
+     "current meds",
+     "prescriptions",
+     "drugs",
+     "medicine list",
+     "pharmacy meds",
+     "dosages",
+     "taken meds",
+     "drug list",
+     "Rx",
+     "over the counter"
+    ]
+   ],
+   [
+    "Symptoms",
+    10,
+    [
+     "what hurts",
+     "symptoms today",
+     "complaints",
+     "pain",
+     "discomfort",
+     "issues",
+     "feelings",
+     "signs",
+     "plaints",
+     "chest pain"
+    ]
+   ],
+   [
+    "Weight Check",
+    9,
+    [
+     "weight",
+     "lbs",
+     "pounds",
+     "weight today",
+     "scale reading",
+     "body weight",
+     "weight measurement",
+     "weighing",
+     "mass"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Treadmill",
+   "Stairs",
+   "Sugar",
+   "Sleep",
+   "Vitamin"
+  ]
+ },
+ "294": {
+  "q": "Name something you’d see at the gym",
+  "a": [
+   [
+    "Treadmill",
+    23,
+    [
+     "treadmills",
+     "running machine",
+     "cardio treadmill",
+     "treadmill machine",
+     "elliptical",
+     "machine"
+    ]
+   ],
+   [
+    "Dumbbells",
+    20,
+    [
+     "free weights",
+     "dumbbell set",
+     "hand weights",
+     "DBs",
+     "weights"
+    ]
+   ],
+   [
+    "Bench",
+    18,
+    [
+     "weight bench",
+     "bench press",
+     "flat bench",
+     "benching spot",
+     "bench seat"
+    ]
+   ],
+   [
+    "Yoga Mat",
+    13,
+    [
+     "mat",
+     "exercise mat",
+     "yoga mat",
+     "fitness mat",
+     "workout mat"
+    ]
+   ],
+   [
+    "Spin Bike",
+    11,
+    [
+     "stationary bike",
+     "spin bike",
+     "indoor bike",
+     "cycles",
+     "spin class bike"
+    ]
+   ],
+   [
+    "Kettlebell",
+    9,
+    [
+     "kettlebells",
+     "KB",
+     "cast iron",
+     "kettlebell set",
+     "weights"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Locker",
+   "Water Bottle",
+   "Timer",
+   "Mirror",
+   "Towels"
+  ]
+ },
+ "295": {
+  "q": "Name something you’d find at the grocery store that people buy every week",
+  "a": [
+   [
+    "Milk",
+    18,
+    [
+     "Milk",
+     "Whole Milk",
+     "Skim Milk",
+     "2 Percent Milk",
+     "Dairy Milk",
+     "Milk Carton"
+    ]
+   ],
+   [
+    "Bread",
+    15,
+    [
+     "Bread",
+     "Loaf",
+     "Whole Wheat",
+     "White Bread",
+     "Sandwich Bread",
+     "Baguette"
+    ]
+   ],
+   [
+    "Eggs",
+    13,
+    [
+     "Eggs",
+     "Egg Carton",
+     "Large Eggs",
+     "Brown Eggs",
+     "Eggs 12",
+     "Egg Pack"
+    ]
+   ],
+   [
+    "Fruit",
+    12,
+    [
+     "Fruit",
+     "Fresh Fruit",
+     "Bananas",
+     "Apples",
+     "Oranges",
+     "Citrus"
+    ]
+   ],
+   [
+    "Cheese",
+    11,
+    [
+     "Cheese",
+     "Block Cheese",
+     "Cheddar",
+     "Mozzarella",
+     "Swiss Cheese",
+     "Colby"
+    ]
+   ],
+   [
+    "Butter",
+    10,
+    [
+     "Butter",
+     "Salted Butter",
+     "Unsalted Butter",
+     "Stick Butter",
+     "Dairy Butter",
+     "Butter Pack"
+    ]
+   ],
+   [
+    "Meat",
+    9,
+    [
+     "Meat",
+     "Chicken",
+     "Beef",
+     "Pork",
+     "Ground Meat",
+     "Fresh Meat"
+    ]
+   ],
+   [
+    "Cereal",
+    8,
+    [
+     "Cereal",
+     "Breakfast Cereal",
+     "Oats",
+     "Granola",
+     "Corn Flakes",
+     "Cereal Box"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Grocery",
+   "Store",
+   "Checkout",
+   "Cart",
+   "Aisle"
+  ]
+ },
+ "296": {
+  "q": "Name something couples fight about in dating life",
+  "a": [
+   [
+    "Communication",
+    27,
+    [
+     "Conversations",
+     "Talk Time",
+     "Communication Issues",
+     "Lack Of Communication",
+     "Miscommunication",
+     "Argue About Talk",
+     "Communication Gap"
+    ]
+   ],
+   [
+    "Time Management",
+    22,
+    [
+     "Scheduling",
+     "Busy Schedule",
+     "Too Busy",
+     "Time Conflicts",
+     "Late Meetings",
+     "Overbooked"
+    ]
+   ],
+   [
+    "Money",
+    17,
+    [
+     "Finances",
+     "Expense",
+     "Budget",
+     "Spending",
+     "Money Talk",
+     "Costs"
+    ]
+   ],
+   [
+    "Jealousy",
+    12,
+    [
+     "Insecurity",
+     "Trust Issues",
+     "Green-Eyed",
+     "Jealous Feelings",
+     "Containment",
+     "Suspicion"
+    ]
+   ],
+   [
+    "Romantic Needs",
+    9,
+    [
+     "Affection",
+     "Love Language",
+     "Quality Time",
+     "Romance",
+     "Attention",
+     "Intimacy"
+    ]
+   ],
+   [
+    "Loyalty",
+    6,
+    [
+     "Faithfulness",
+     "Commitment",
+     "Trust",
+     "Cheating Fears",
+     "Dedication",
+     "Reliability"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Bad Date",
+   "Dinner",
+   "Texting",
+   "Flirt",
+   "Snack Time"
+  ]
+ },
+ "297": {
+  "q": "Name something you might have done as your first job",
+  "a": [
+   [
+    "Fast Food",
+    23,
+    [
+     "fast food cashier",
+     "restaurant fry cook",
+     "drive-thru",
+     "McDonald’s",
+     "Burger King",
+     "In-N-Out",
+     "KFC",
+     "sub shop",
+     "food counter"
+    ]
+   ],
+   [
+    "Babysat",
+    19,
+    [
+     "nanny",
+     "sitter",
+     "childcare",
+     "babysitting",
+     "took care of kids",
+     "sat for kids",
+     "babysitter"
+    ]
+   ],
+   [
+    "Lawn Mowed",
+    16,
+    [
+     "mowed lawn",
+     "yard work",
+     "lawn care",
+     "yard mowing",
+     "mow lawns",
+     "mowing"
+    ]
+   ],
+   [
+    "Pet Sitter",
+    13,
+    [
+     "dog walker",
+     "dog sitting",
+     "pet care",
+     "cat sitter",
+     "pet care helper",
+     "animal sitter"
+    ]
+   ],
+   [
+    "Paper Route",
+    12,
+    [
+     "newspaper",
+     "delivery",
+     "newspaper route",
+     "delivery route",
+     "newspaper boy",
+     "paperboy"
+    ]
+   ],
+   [
+    "Retail Clerk",
+    11,
+    [
+     "store associate",
+     "cashier",
+     "sales clerk",
+     "customer service",
+     "retail worker",
+     "salesperson"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Ice Skater",
+   "Lifeguard",
+   "Model",
+   "Chef",
+   "Teacher"
+  ]
+ },
+ "298": {
+  "q": "Name something you’d see at an airport",
+  "a": [
+   [
+    "Boarding Gate",
+    25,
+    [
+     "boarding gate",
+     "gates",
+     "departure gate",
+     "gate B",
+     "gate A",
+     "boarding area",
+     "gate 24"
+    ]
+   ],
+   [
+    "Carry‑On",
+    21,
+    [
+     "carry-on",
+     "carryon",
+     "hand luggage",
+     "handbag",
+     "small suitcase",
+     "cx bag",
+     "overhead bag"
+    ]
+   ],
+   [
+    "Luggage",
+    17,
+    [
+     "suitcase",
+     "bag",
+     "checked bag",
+     "duffel",
+     "travel bag",
+     "metal case",
+     "valise"
+    ]
+   ],
+   [
+    "Security",
+    13,
+    [
+     "security check",
+     "tsa",
+     "security line",
+     "metal detector",
+     "pat-down",
+     "screening"
+    ]
+   ],
+   [
+    "Flights",
+    10,
+    [
+     "airplanes",
+     "airline",
+     "departures",
+     "arrivals",
+     "aircraft",
+     "planes"
+    ]
+   ],
+   [
+    "Airport Map",
+    8,
+    [
+     "terminal map",
+     "directory",
+     "map",
+     "layout",
+     "terminal chart",
+     "signs"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Plane",
+   "Ticket",
+   "Ticket",
+   "Food",
+   "Coffee"
+  ]
+ },
+ "299": {
+  "q": "Name something people sometimes lie about to impress others",
+  "a": [
+   [
+    "Their Age",
+    23,
+    [
+     "Age",
+     "How Old",
+     "Age Of Me",
+     "My Age",
+     "I’m Older",
+     "Old Age",
+     "Age Truth"
+    ]
+   ],
+   [
+    "Salary",
+    20,
+    [
+     "Pay",
+     "Salary Range",
+     "Income",
+     "Earnings",
+     "Wage",
+     "Salary Truth",
+     "Pay Stub"
+    ]
+   ],
+   [
+    "Relationship Status",
+    16,
+    [
+     "Status",
+     "Marital Status",
+     "Dating",
+     "Single/Not",
+     "Committed",
+     "Partner Status"
+    ]
+   ],
+   [
+    "Achievements",
+    13,
+    [
+     "Accomplishments",
+     "Wins",
+     "Successes",
+     "Awards",
+     "Milestones",
+     "Conquests"
+    ]
+   ],
+   [
+    "Education Level",
+    12,
+    [
+     "College",
+     "Degree",
+     "Education",
+     "Schools",
+     "Qualifications",
+     "Degree Level"
+    ]
+   ],
+   [
+    "Age When First Met",
+    10,
+    [
+     "When We Met",
+     "First Met Age",
+     "Met At",
+     "Age Then",
+     "First Introduced",
+     "Met Age"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Secret",
+   "Lifeboat",
+   "Maybe",
+   "Probably",
+   "Honestly"
+  ]
+ },
+ "300": {
+  "q": "Name something you might hear in a school classroom",
+  "a": [
+   [
+    "Ceiling Fan",
+    22,
+    [
+     "fan",
+     "ceiling fan",
+     "classroom fan",
+     "air mover"
+    ]
+   ],
+   [
+    "Pop Quiz",
+    20,
+    [
+     "quiz",
+     "surprise test",
+     "short test",
+     "surprise assessment",
+     "quick quiz"
+    ]
+   ],
+   [
+    "Lunch Bell",
+    18,
+    [
+     "lunch bell",
+     "bell for lunch",
+     "lunch time bell",
+     "cafeteria bell"
+    ]
+   ],
+   [
+    "Homework",
+    16,
+    [
+     "homework",
+     "assignments",
+     "classwork to take home",
+     "hw",
+     "tasks"
+    ]
+   ],
+   [
+    "Pencil Sharpener",
+    12,
+    [
+     "pencil sharpener",
+     "sharpening",
+     "sharpener",
+     "pencils"
+    ]
+   ],
+   [
+    "Chalk Dust",
+    7,
+    [
+     "chalk",
+     "chalk dust",
+     "chalk powder",
+     "dust"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Locker",
+   "Bus Stop",
+   "Playground",
+   "Library",
+   "Yearbook"
+  ]
+ },
+ "301": {
+  "q": "Name something people post about on social media",
+  "a": [
+   [
+    "Food Pics",
+    25,
+    [
+     "food",
+     "meals",
+     "pic of food",
+     "dining"
+    ]
+   ],
+   [
+    "Pets",
+    21,
+    [
+     "pets",
+     "pet pics",
+     "cats",
+     "dogs",
+     "animal"
+    ]
+   ],
+   [
+    "Travel Photos",
+    16,
+    [
+     "trips",
+     "vacations",
+     "travelogues",
+     "wanderlust"
+    ]
+   ],
+   [
+    "Memes",
+    13,
+    [
+     "meme",
+     "memes",
+     "funny pics",
+     "jokes"
+    ]
+   ],
+   [
+    "selfies",
+    10,
+    [
+     "selfies",
+     "selfies pics",
+     "self-portraits"
+    ]
+   ],
+   [
+    "Quotes",
+    8,
+    [
+     "quotes",
+     "inspirational",
+     "caption"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Birthday",
+   "Weather",
+   "Sports",
+   "Music",
+   "News"
+  ]
+ },
+ "302": {
+  "q": "Name something winter related people always have ready for the cold",
+  "a": [
+   [
+    "Winter Boots",
+    26,
+    [
+     "Snow Boots",
+     "Boots for Winter",
+     "Warm Boots",
+     "Insulated Boots",
+     "Cold Weather Boots",
+     "Snowy Weather Boots"
+    ]
+   ],
+   [
+    "Warm Coat",
+    21,
+    [
+     "Winter Coat",
+     "Peacoat",
+     "Parka",
+     "Heavy Coat",
+     "Coat With Hood",
+     "Down Coat",
+     "Jacket"
+    ]
+   ],
+   [
+    "Snow Shovel",
+    17,
+    [
+     "Shovel",
+     "Snowrake",
+     "Snow Scraper",
+     "Deck Shovel",
+     "Ice Shovel",
+     "Snow Removal Tool",
+     "Snow Clearing Shovel"
+    ]
+   ],
+   [
+    "Hot Chocolate",
+    14,
+    [
+     "Cocoa",
+     "Hot Cocoa",
+     "Warm Chocolate Drink",
+     "Hot Drink",
+     "Cocoa Drink",
+     "Marshmallow Cocoa",
+     "Milk Chocolate Drink"
+    ]
+   ],
+   [
+    "Snow Days",
+    9,
+    [
+     "Snow Day",
+     "School Closed",
+     "Day Off",
+     "Snow Break",
+     "Frozen Day",
+     "No School Day",
+     "Winter Break"
+    ]
+   ],
+   [
+    "Flannel Pajamas",
+    7,
+    [
+     "Pajamas",
+     "Flannel PJs",
+     "Warm PJs",
+     "Cozy Pajamas",
+     "Winter Pajamas",
+     "Soft PJs",
+     "Warm Sleepwear"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Ice Cream",
+   "Sunscreen",
+   "Beach",
+   "Picnic",
+   "Umbrella"
+  ]
+ },
+ "303": {
+  "q": "Name a popular sport people love to watch on TV with big crowds",
+  "a": [
+   [
+    "Football",
+    22,
+    [
+     "Soccer",
+     "American Football",
+     "NFL",
+     "Gridiron",
+     "Football Game",
+     "Football Match",
+     "Football Game Day",
+     "Football Night"
+    ]
+   ],
+   [
+    "Basketball",
+    18,
+    [
+     "BBall",
+     "NBA",
+     "Basketball Game",
+     "Hoops",
+     "Basketball Match",
+     "Court Sport",
+     "Basketball Night",
+     "Basketball Game Day"
+    ]
+   ],
+   [
+    "Baseball",
+    14,
+    [
+     "MLB",
+     "Baseball Game",
+     "Pitching",
+     "Hit And Run",
+     "Baseball Match",
+     "Diamond Sport",
+     "Baseball Night",
+     "America’s Pastime"
+    ]
+   ],
+   [
+    "Tennis",
+    12,
+    [
+     "Lawn Tennis",
+     "Court Tennis",
+     "Grand Slam",
+     "Tennis Match",
+     "Singles",
+     "Doubles",
+     "Wimbledon",
+     "US Open"
+    ]
+   ],
+   [
+    "Soccer",
+    9,
+    [
+     "Football (soccer)",
+     "Futbol",
+     "World Cup",
+     "Digest",
+     "Match",
+     "Soccer Game",
+     "Premier League",
+     "La Liga"
+    ]
+   ],
+   [
+    "Golf",
+    8,
+    [
+     "PGA",
+     "Golfing",
+     "Golf Tournament",
+     "Masters",
+     "Chip Shot",
+     "Putting",
+     "Birdie",
+     "Drivers"
+    ]
+   ],
+   [
+    "NHL",
+    5,
+    [
+     "Hockey",
+     "Ice Hockey",
+     "Stanley Cup",
+     "Hockey Playoffs",
+     "Puck",
+     "Rink",
+     "Hockey Night",
+     "NHL Games"
+    ]
+   ],
+   [
+    "Cricket",
+    5,
+    [
+     "Test Cricket",
+     "One Day",
+     "T20",
+     "Cricbuzz",
+     "Cricket Match",
+     "ODI",
+     "World Cup",
+     "Ashes"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Quiz Night",
+   "Volleyball",
+   "Rugby",
+   "Sumo",
+   "Badminton"
+  ]
+ },
+ "304": {
+  "q": "Name something people use on their phones that isn’t a game",
+  "a": [
+   [
+    "Smartphone Case",
+    27,
+    [
+     "phone case",
+     "phone cover",
+     "case",
+     "cell case",
+     "iPhone case",
+     "Android case",
+     "protective case",
+     "case for phone",
+     "protective cover",
+     "phone shell",
+     "cover"
+    ]
+   ],
+   [
+    "Screen Protector",
+    22,
+    [
+     "tempered glass",
+     "screen guard",
+     "screen shield",
+     "protective film",
+     "glass",
+     "screen film",
+     "phone protector",
+     "glass protector",
+     "privacy screen"
+    ]
+   ],
+   [
+    "Charging Cable",
+    17,
+    [
+     "charger",
+     "charger cable",
+     "USB cable",
+     "phone charger",
+     "cable",
+     "charging cord",
+     "data cable",
+     "USB-C cable",
+     "Lightning cable",
+     "charge cord"
+    ]
+   ],
+   [
+    "Wireless Charger",
+    12,
+    [
+     "pad",
+     "charger pad",
+     "Qi charger",
+     "wireless pad",
+     "charging pad",
+     "wireless dock",
+     "charging mat",
+     "wireless charging",
+     "pad charger"
+    ]
+   ],
+   [
+    "Phone Stand",
+    9,
+    [
+     "stand",
+     "phone holder",
+     "desk stand",
+     "kickstand",
+     "cell stand",
+     "phone mount",
+     "table stand",
+     "tablet stand"
+    ]
+   ],
+   [
+    "Power Bank",
+    6,
+    [
+     "external battery",
+     "battery pack",
+     "portable charger",
+     "charger pack",
+     "power pack",
+     "backup battery",
+     "USB power bank",
+     "bank"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Pen",
+   "Notebook",
+   "Headphones"
+  ]
+ },
+ "305": {
+  "q": "Name something you’d hear a student say about school days",
+  "a": [
+   [
+    "Lunch Break",
+    10,
+    [
+     "Lunch Break",
+     "Lunch",
+     "Midday Break",
+     "School Lunch",
+     "Noon Break"
+    ]
+   ],
+   [
+    "Homework",
+    9,
+    [
+     "Homework",
+     "Assigned Work",
+     "Homework Tonight",
+     "Schoolwork",
+     "Study"
+    ]
+   ],
+   [
+    "Alarm Clock",
+    8,
+    [
+     "Alarm",
+     "Alarm Clock",
+     "Wake-up",
+     "Ringing Alarm",
+     "Morning Bell"
+    ]
+   ],
+   [
+    "Recess",
+    7,
+    [
+     "Recess",
+     "Playtime",
+     "Break Time",
+     "recess",
+     "School Yard"
+    ]
+   ],
+   [
+    "Pop Quiz",
+    6,
+    [
+     "Pop Quiz",
+     "Surprise Quiz",
+     "Surprise Test",
+     "Quick Quiz",
+     "Quiz Time"
+    ]
+   ],
+   [
+    "Field Trip",
+    5,
+    [
+     "Field Trip",
+     "Excursion",
+     "School Trip",
+     "Outing",
+     "Visit"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Trampoline",
+   "Sundae",
+   "Cartwheel",
+   "Pizza Party",
+   "Vacation"
+  ]
+ },
+ "306": {
+  "q": "Name something you might celebrate on a birthday",
+  "a": [
+   [
+    "Cake",
+    25,
+    [
+     "Birthday Cake",
+     "Chocolate Cake",
+     "Vanilla Cake",
+     "Cakes",
+     "Piece Of Cake",
+     "Birthday Slice",
+     "Slice Of Cake",
+     "Cupcake"
+    ]
+   ],
+   [
+    "candles",
+    20,
+    [
+     "Birthday Candles",
+     "Candle",
+     "Candles",
+     "Candle Light",
+     "Lit Candles",
+     "Birthday Light",
+     "Number Candles",
+     "Cake Candles"
+    ]
+   ],
+   [
+    "gifts",
+    17,
+    [
+     "Presents",
+     "Gifts",
+     "Birthday Presents",
+     "Packages",
+     "Surprises",
+     "Party Favors",
+     "Giving Gifts",
+     "Gift Box"
+    ]
+   ],
+   [
+    "laughter",
+    13,
+    [
+     "Laughter",
+     "Giggles",
+     "Laughing",
+     "Fun",
+     "Joy",
+     "Happiness",
+     "Chuckle",
+     "Laughs"
+    ]
+   ],
+   [
+    "party",
+    11,
+    [
+     "Celebration",
+     "Party Time",
+     "Birthday Party",
+     "Get Together",
+     "Shindig",
+     "Celebration Party",
+     "Group Party",
+     "Bash"
+    ]
+   ],
+   [
+    "photos",
+    8,
+    [
+     "Pictures",
+     "Photos",
+     "Selfies",
+     "Photo Op",
+     "Camera",
+     "Snaps",
+     "Memories",
+     "Photo"
+    ]
+   ]
+  ],
+  "wrong": [
+   "School",
+   "Music",
+   "CakePop",
+   "Ball",
+   "Present",
+   "Streamers"
+  ]
+ },
+ "307": {
+  "q": "Name something you might see on a road trip in a car",
+  "a": [
+   [
+    "Gas Station",
+    27,
+    [
+     "petrol pump",
+     "gas station",
+     "gas стоп",
+     "fuel stop",
+     "gas bar",
+     "gas",
+     "station",
+     "petrol"
+    ]
+   ],
+   [
+    "Traffic Jam",
+    22,
+    [
+     "congestion",
+     "gridlock",
+     "traffic",
+     "jam",
+     "bottleneck",
+     "slowdown"
+    ]
+   ],
+   [
+    "Fast Food",
+    17,
+    [
+     "drive-thru",
+     "fast food",
+     "burger joint",
+     "fries",
+     "meal"
+    ]
+   ],
+   [
+    "Car Wash",
+    14,
+    [
+     "wash",
+     "auto wash",
+     "detailing",
+     "shower",
+     "soap bay",
+     "car cleaning"
+    ]
+   ],
+   [
+    "Roadside Assistance",
+    9,
+    [
+     "AAA",
+     "tow truck",
+     "help",
+     "breakdown",
+     "assistance",
+     "emergency"
+    ]
+   ],
+   [
+    "Map Book",
+    4,
+    [
+     "atlas",
+     "map",
+     "maps",
+     "road map",
+     "navigation book"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Airport",
+   "Train",
+   "Bike",
+   "Boat",
+   "Bus"
+  ]
+ },
+ "308": {
+  "q": "Name something you’d see at a wedding reception",
+  "a": [
+   [
+    "Wedding Cake",
+    25,
+    [
+     "cake",
+     "cake Slice",
+     "Wedding Cake Top",
+     "Tiered Cake",
+     "Fruit Cake",
+     "Fondant Cake"
+    ]
+   ],
+   [
+    "Bride And Groom",
+    21,
+    [
+     "Bride",
+     "Groom",
+     "Mr And Mrs",
+     "Newlyweds",
+     "Couple",
+     "Husband Wife"
+    ]
+   ],
+   [
+    "Reception Music",
+    16,
+    [
+     "Live Band",
+     "DJ",
+     "Music",
+     "Songs",
+     "Playlist",
+     "Dance Music"
+    ]
+   ],
+   [
+    "First Dance",
+    13,
+    [
+     "First Dance",
+     "Couple Dance",
+     "Wedding Dance",
+     "Bride Dance",
+     "Groom Dance",
+     "Dance"
+    ]
+   ],
+   [
+    "Giving Speeches",
+    10,
+    [
+     "Toast",
+     "Toasts",
+     "Speech",
+     "Best Man Speech",
+     "Father Speech",
+     "Maid Of Honor"
+    ]
+   ],
+   [
+    "Guest Attire",
+    9,
+    [
+     "Dress Code",
+     "Evening Wear",
+     "Gowns",
+     "Tuxedos",
+     "Formal Wear",
+     "Outfits"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Gift Bags",
+   "Menu",
+   "Photo Booth",
+   "Cake Cutting",
+   "Confetti"
+  ]
+ },
+ "309": {
+  "q": "Name something you’d see in a grocery store checkout line",
+  "a": [
+   [
+    "Cashier",
+    24,
+    [
+     "cashier",
+     "checkout attendant",
+     "clerk",
+     "bagger",
+     "cash register operator",
+     "checkout person"
+    ]
+   ],
+   [
+    "Milk",
+    19,
+    [
+     "milk",
+     "whole milk",
+     "skim milk",
+     "2 percent milk",
+     "dairy milk",
+     "milk jug"
+    ]
+   ],
+   [
+    "Bread",
+    16,
+    [
+     "bread",
+     "loaf",
+     "sliced bread",
+     "sandwich bread",
+     "white bread",
+     "rye bread"
+    ]
+   ],
+   [
+    "Eggs",
+    14,
+    [
+     "eggs",
+     "egg carton",
+     "carton of eggs",
+     "large eggs",
+     "medium eggs",
+     "organic eggs"
+    ]
+   ],
+   [
+    "Fruits",
+    11,
+    [
+     "fruits",
+     "fruit",
+     "fresh fruit",
+     "fruit basket",
+     "assorted fruit",
+     "citrus"
+    ]
+   ],
+   [
+    "Cheese",
+    10,
+    [
+     "cheese",
+     "block of cheese",
+     "shredded cheese",
+     "cheddar",
+     "mozzarella",
+     "parm"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Banana",
+   "Phone",
+   "Printer",
+   "Laptop",
+   "Desk"
+  ]
+ },
+ "310": {
+  "q": "Name something you’d buy while shopping online",
+  "a": [
+   [
+    "Smartphone Case",
+    24,
+    [
+     "phone case",
+     "cell case",
+     "protective case",
+     "iPhone case",
+     "Android case",
+     "cover",
+     "case"
+    ]
+   ],
+   [
+    "T-Shirt",
+    20,
+    [
+     "tee shirt",
+     "t-shirt",
+     "shirt",
+     "tee",
+     "top",
+     "tee"
+    ]
+   ],
+   [
+    "Water Bottle",
+    15,
+    [
+     "bottle",
+     "water bottle",
+     "reusable bottle",
+     "sports bottle",
+     "hydration bottle",
+     "canteen"
+    ]
+   ],
+   [
+    "Headphones",
+    13,
+    [
+     "earbuds",
+     "headphones",
+     "earphones",
+     "audio",
+     "wireless headphones",
+     "noise cancelling"
+    ]
+   ],
+   [
+    "Scented Candle",
+    10,
+    [
+     "candle",
+     "scented candle",
+     "fragrance candle",
+     "aroma candle",
+     "soy candle",
+     "flame candle"
+    ]
+   ],
+   [
+    "Backpack",
+    8,
+    [
+     "bag",
+     "rucksack",
+     "bookbag",
+     "school bag",
+     "travel bag",
+     "daypack"
+    ]
+   ],
+   [
+    "Sneakers",
+    4,
+    [
+     "shoes",
+     "sneaks",
+     "trainers",
+     "sneaker",
+     "tennis shoes",
+     "athletic shoes"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Wristwatch",
+   "Umbrella",
+   "Lamp",
+   "Cookie",
+   "Notebook"
+  ]
+ },
+ "311": {
+  "q": "Name something you’d find in a grocery store aisle",
+  "a": [
+   [
+    "Fresh Produce",
+    21,
+    [
+     "produce",
+     "fruits and veggies",
+     "produce section",
+     "fruit",
+     "vegetables",
+     "fruits",
+     "veg"
+    ]
+   ],
+   [
+    "Milk and Dairy",
+    17,
+    [
+     "milk",
+     "dairy",
+     "milk products",
+     "cheese",
+     "yogurt",
+     "butter",
+     "cream",
+     "egg",
+     "dairy case"
+    ]
+   ],
+   [
+    "Bread",
+    15,
+    [
+     "loaf",
+     "bread loaf",
+     "baguette",
+     "sandwich bread",
+     "brown bread",
+     "white bread",
+     "toast"
+    ]
+   ],
+   [
+    "Cereal",
+    12,
+    [
+     "cereal",
+     "breakfast cereal",
+     "flakes",
+     "oats",
+     "grain",
+     "cornflakes",
+     "muesli"
+    ]
+   ],
+   [
+    "Frozen Food",
+    10,
+    [
+     "frozen",
+     "frozen meals",
+     "ice cream",
+     "frozen vegetables",
+     "frozen pizza",
+     "frozen dinners",
+     "frozen snacks"
+    ]
+   ],
+   [
+    "Meat and Poultry",
+    7,
+    [
+     "meat",
+     "beef",
+     "poultry",
+     "chicken",
+     "pork",
+     "steak",
+     "ground beef",
+     "turkey"
+    ]
+   ],
+   [
+    "Bakery Aisle",
+    6,
+    [
+     "bakery",
+     "bread shop",
+     "pastries",
+     "cake",
+     "cookies",
+     "pretzels",
+     "pies"
+    ]
+   ],
+   [
+    "Beverages",
+    5,
+    [
+     "drinks",
+     "soda",
+     "juice",
+     "water",
+     "coffee",
+     "tea",
+     "beer",
+     "wine"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Cashier",
+   "Cart",
+   "Line",
+   "Scanner",
+   "Receipt"
+  ]
+ },
+ "312": {
+  "q": "Name something a busy family does on weekends",
+  "a": [
+   [
+    "Family Dinner",
+    29,
+    [
+     "dinner together",
+     "meal time",
+     "eat together",
+     "supper",
+     "dinner with family",
+     "family meal"
+    ]
+   ],
+   [
+    "Movie Night",
+    22,
+    [
+     "film night",
+     "watch movie",
+     "family film",
+     "cinema night",
+     "movie evening",
+     "home theater"
+    ]
+   ],
+   [
+    "Game Time",
+    17,
+    [
+     "board games",
+     "video games",
+     "game night",
+     "play games",
+     "family games",
+     "games"
+    ]
+   ],
+   [
+    "Neighborhood Walk",
+    13,
+    [
+     "walk",
+     "evening stroll",
+     "family stroll",
+     "walk together",
+     "park walk",
+     "outdoor walk"
+    ]
+   ],
+   [
+    "chores",
+    7,
+    [
+     "household chores",
+     "cleaning",
+     "tidying",
+     "laundry",
+     "washing dishes",
+     "yard work"
+    ]
+   ],
+   [
+    "Story Time",
+    6,
+    [
+     "reading",
+     "bedtime story",
+     "tale time",
+     "storybook",
+     "read aloud",
+     "kids books"
+    ]
+   ]
+  ],
+  "wrong": [
+   "Late Lunch",
+   "Sunday Drive",
+   "Phone Call",
+   "School Prank",
+   "Vacation Photo"
+  ]
+ }
+}
