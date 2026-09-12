@@ -114,9 +114,21 @@ async function render(text, voice, apiKey) {
       if (!b64) throw new Error("no audio in response");
       return wav(Buffer.from(b64, "base64"));
     }
-    if (res.status === 429 || res.status >= 500) {
+    if (res.status === 429) {
+      const detail = await res.text();
+      // A per-day quota can't be outwaited, so stop rather than back off for
+      // minutes against a limit that only resets tomorrow. A per-minute one
+      // is worth retrying.
+      if (/PerDay|RequestsPerDay/i.test(detail)) {
+        throw new Error("daily quota exhausted");
+      }
       const wait = Math.min(60, 2 ** attempt * 3);
       process.stdout.write(`\r  rate limited, waiting ${wait}s…`.padEnd(80));
+      await new Promise((r) => setTimeout(r, wait * 1000));
+      continue;
+    }
+    if (res.status >= 500) {
+      const wait = Math.min(60, 2 ** attempt * 3);
       await new Promise((r) => setTimeout(r, wait * 1000));
       continue;
     }
@@ -201,7 +213,7 @@ const main = async () => {
       bar(made, batch.length, job.text, t0);
     } catch (e) {
       // Out of quota is the expected way a run ends, not a failure.
-      const quota = /quota|429|RESOURCE_EXHAUSTED/i.test(e.message);
+      const quota = /quota|429|RESOURCE_EXHAUSTED|exhausted/i.test(e.message);
       console.log(`\n\n${quota ? "daily quota reached" : `stopped: ${e.message}`} after ${made} new clip(s).`);
       console.log(`bank now ${have + made}/${jobs.length}. Re-run tomorrow to continue.`);
       return;
