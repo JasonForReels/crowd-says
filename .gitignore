@@ -3,3 +3,11 @@ dist
 .env
 .cache
 .DS_Store
+
+# Python venv for the old local-TTS experiment, and its scratch renders
+tools/voice/.venv
+tools/voice/samples
+
+# Xcode per-user state
+*.xcuserdatad
+xcuserdata

@@ -1,0 +1,64 @@
+# Fills the pre-rendered voice bank a little each day.
+#
+# Gemini's free tier allows 10 TTS requests per project per day, so the bank
+# (284 clips) can't be rendered in one go. This renders the next batch every
+# day and commits the result, in priority order: the lines heard every game
+# first, then board questions, then the answers the audience calls out.
+#
+# Needs one repository secret: GEMINI_API_KEY.
+name: Voice bank
+
+on:
+  schedule:
+    # 06:10 UTC daily. Google's free-tier day resets on Pacific time, so this
+    # sits comfortably inside a fresh quota window.
+    - cron: "10 6 * * *"
+  workflow_dispatch: # so it can also be run by hand
+
+# One at a time: two concurrent runs would fight over the quota and the commit.
+concurrency:
+  group: voice-bank
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # to commit the rendered clips back
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Render the next batch
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          if [ -z "$GEMINI_API_KEY" ]; then
+            echo "::error::GEMINI_API_KEY secret is not set — add it in Settings → Secrets and variables → Actions"
+            exit 1
+          fi
+          node tools/voice/prerender.mjs --limit 10
+
+      - name: Commit anything new
+        run: |
+          if [ -z "$(git status --porcelain server/voice)" ]; then
+            echo "No new clips — the bank may be complete, or today's quota was already spent."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add server/voice
+          count=$(git diff --cached --name-only --diff-filter=A server/voice | wc -l | tr -d ' ')
+          total=$(ls server/voice/*.wav 2>/dev/null | wc -l | tr -d ' ')
+          git commit -m "Voice bank: add ${count} clip(s) (${total}/284)"
+          git push
+
+      - name: Progress
+        run: |
+          have=$(ls server/voice/*.wav 2>/dev/null | wc -l | tr -d ' ')
+          echo "### Voice bank: ${have}/284 clips" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "Roughly $(( (284 - have + 9) / 10 )) day(s) remaining at 10/day." >> "$GITHUB_STEP_SUMMARY"

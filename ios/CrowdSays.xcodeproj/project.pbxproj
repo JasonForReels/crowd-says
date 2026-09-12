@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A37C6F7B81A8AE30F10D46 /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = BE69D459FC931252AFC667AE /* questions.json */; };
+		2366EC2BF1EC3AD062FE07E5 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC181B5F98B72C87C138363 /* GameView.swift */; };
+		44F3B49D0C73C9F0843272CB /* ShowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8666F0874835E68DD93360AA /* ShowModel.swift */; };
+		54669A86553850F271545F2C /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C89E7A12EA6381FF6D6733 /* Sound.swift */; };
+		6176EDD440A978ADC55C87C3 /* FastMoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C156D8B8180B244E00667F0F /* FastMoneyView.swift */; };
+		811F9F30D07B5DB608D8D225 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7C1372CD48AA69CE0F3C01 /* API.swift */; };
+		976B38AA8CB49D7754EF1CE5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA7F6B171A8020E8698A6C9 /* HomeView.swift */; };
+		9D608F4A74E63653D6350D09 /* ShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF18404A0A2F82D21C6E3013 /* ShowView.swift */; };
+		A74D0AEC5B22145C18B557DE /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95984C2429031F651BE7C6F /* Theme.swift */; };
+		ADDA6D785B5A3EE1DB13D358 /* Voice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E032686A3285228B64FA7E /* Voice.swift */; };
+		BAD752E263006AB7B77E1DFC /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACB3F3C034BE3EB6B98E574 /* BoardView.swift */; };
+		C28E3B592A560C32484F497E /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0C8FAFE1B09544C5912233 /* Models.swift */; };
+		CAF63E89F3BB11CDD7D5E76B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC8F9B50E0CA5CACE16BB40 /* RootView.swift */; };
+		DCBC6C503A00CC6E096EFA11 /* CrowdSaysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE07ABF6ECBF889703BC8F3E /* CrowdSaysApp.swift */; };
+		E931F6F07F6D74A9E5455654 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB3AE597FE4688929FD66A3 /* Match.swift */; };
+		FD245F2D88D32CAB44FF1B17 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826CD838BFC1BD67047DEE8B /* Store.swift */; };
+		FE7DF52FB214DB0C561581C3 /* DailyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC9B2FA212C5F5EB9573CC2 /* DailyView.swift */; };
+		2233B71F75F1E7625BA3D79C /* cheer.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0065950E2264E1AA5B0A52EE /* cheer.m4a */; };
+		B53D04AE8E8E58874191B901 /* applause.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 90C165AABF7B6F078A03131F /* applause.m4a */; };
+		A2350FD9681AEAAA355DE383 /* applause-big.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D8F54F961F6E458AEEB638A8 /* applause-big.m4a */; };
+		F5EDCDBF10C21F6FA71EA8E6 /* groan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 73FBD3D453F608401EE04612 /* groan.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1507F021100E808DBE2FAA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B0C8FAFE1B09544C5912233 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		2BC9B2FA212C5F5EB9573CC2 /* DailyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyView.swift; sourceTree = "<group>"; };
+		37E032686A3285228B64FA7E /* Voice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voice.swift; sourceTree = "<group>"; };
+		38A007151ABE87CC01A5B6E9 /* CrowdSays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrowdSays.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA7F6B171A8020E8698A6C9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3D7C1372CD48AA69CE0F3C01 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		41C89E7A12EA6381FF6D6733 /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		5AB3AE597FE4688929FD66A3 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		826CD838BFC1BD67047DEE8B /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		8666F0874835E68DD93360AA /* ShowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowModel.swift; sourceTree = "<group>"; };
+		9CC8F9B50E0CA5CACE16BB40 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		AFC181B5F98B72C87C138363 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		BE07ABF6ECBF889703BC8F3E /* CrowdSaysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdSaysApp.swift; sourceTree = "<group>"; };
+		BE69D459FC931252AFC667AE /* questions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
+		C156D8B8180B244E00667F0F /* FastMoneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastMoneyView.swift; sourceTree = "<group>"; };
+		E95984C2429031F651BE7C6F /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		EACB3F3C034BE3EB6B98E574 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		EF18404A0A2F82D21C6E3013 /* ShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowView.swift; sourceTree = "<group>"; };
+		0065950E2264E1AA5B0A52EE /* cheer.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cheer.m4a"; sourceTree = "<group>"; };
+		90C165AABF7B6F078A03131F /* applause.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "applause.m4a"; sourceTree = "<group>"; };
+		D8F54F961F6E458AEEB638A8 /* applause-big.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "applause-big.m4a"; sourceTree = "<group>"; };
+		73FBD3D453F608401EE04612 /* groan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "groan.m4a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69BE8A4D8E4D9DA4E7DB3928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		328EC33DF3954DC9B83FA285 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38A007151ABE87CC01A5B6E9 /* CrowdSays.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69F8D45498D7E20DA99BB780 /* CrowdSays */ = {
+			isa = PBXGroup;
+			children = (
+				BE07ABF6ECBF889703BC8F3E /* CrowdSaysApp.swift */,
+				E95984C2429031F651BE7C6F /* Theme.swift */,
+				1B0C8FAFE1B09544C5912233 /* Models.swift */,
+				C6BFABBC9B5307925D4BF436 /* Lib */,
+				70833B5C55E5291733BB3D88 /* Views */,
+				AF6BE5A624E88917894AA842 /* Resources */,
+				1507F021100E808DBE2FAA00 /* Info.plist */,
+			);
+			path = CrowdSays;
+			sourceTree = "<group>";
+		};
+		70833B5C55E5291733BB3D88 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EACB3F3C034BE3EB6B98E574 /* BoardView.swift */,
+				2BC9B2FA212C5F5EB9573CC2 /* DailyView.swift */,
+				C156D8B8180B244E00667F0F /* FastMoneyView.swift */,
+				AFC181B5F98B72C87C138363 /* GameView.swift */,
+				3CA7F6B171A8020E8698A6C9 /* HomeView.swift */,
+				9CC8F9B50E0CA5CACE16BB40 /* RootView.swift */,
+				8666F0874835E68DD93360AA /* ShowModel.swift */,
+				EF18404A0A2F82D21C6E3013 /* ShowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AF6BE5A624E88917894AA842 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0065950E2264E1AA5B0A52EE /* cheer.m4a */,
+				90C165AABF7B6F078A03131F /* applause.m4a */,
+				D8F54F961F6E458AEEB638A8 /* applause-big.m4a */,
+				73FBD3D453F608401EE04612 /* groan.m4a */,
+				BE69D459FC931252AFC667AE /* questions.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C6BFABBC9B5307925D4BF436 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				3D7C1372CD48AA69CE0F3C01 /* API.swift */,
+				5AB3AE597FE4688929FD66A3 /* Match.swift */,
+				41C89E7A12EA6381FF6D6733 /* Sound.swift */,
+				826CD838BFC1BD67047DEE8B /* Store.swift */,
+				37E032686A3285228B64FA7E /* Voice.swift */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		E50290A24C49A459B43487C5 = {
+			isa = PBXGroup;
+			children = (
+				69F8D45498D7E20DA99BB780 /* CrowdSays */,
+				328EC33DF3954DC9B83FA285 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E8A3AD980EC179856012B7E /* CrowdSays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8AD3EF59D5AF3A47F516C5A /* Build configuration list for PBXNativeTarget "CrowdSays" */;
+			buildPhases = (
+				78A528B9AA947B36446252B9 /* Sources */,
+				69BE8A4D8E4D9DA4E7DB3928 /* Frameworks */,
+				99F77BA36C5389AA8070E355 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrowdSays;
+			productName = CrowdSays;
+			productReference = 38A007151ABE87CC01A5B6E9 /* CrowdSays.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					0E8A3AD980EC179856012B7E = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 642847098F0B60C253877A57 /* Build configuration list for PBXProject "CrowdSays" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E50290A24C49A459B43487C5;
+			productRefGroup = 328EC33DF3954DC9B83FA285 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E8A3AD980EC179856012B7E /* CrowdSays */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99F77BA36C5389AA8070E355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2233B71F75F1E7625BA3D79C /* cheer.m4a in Resources */,
+				B53D04AE8E8E58874191B901 /* applause.m4a in Resources */,
+				A2350FD9681AEAAA355DE383 /* applause-big.m4a in Resources */,
+				F5EDCDBF10C21F6FA71EA8E6 /* groan.m4a in Resources */,
+				18A37C6F7B81A8AE30F10D46 /* questions.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78A528B9AA947B36446252B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCBC6C503A00CC6E096EFA11 /* CrowdSaysApp.swift in Sources */,
+				A74D0AEC5B22145C18B557DE /* Theme.swift in Sources */,
+				C28E3B592A560C32484F497E /* Models.swift in Sources */,
+				811F9F30D07B5DB608D8D225 /* API.swift in Sources */,
+				E931F6F07F6D74A9E5455654 /* Match.swift in Sources */,
+				54669A86553850F271545F2C /* Sound.swift in Sources */,
+				FD245F2D88D32CAB44FF1B17 /* Store.swift in Sources */,
+				ADDA6D785B5A3EE1DB13D358 /* Voice.swift in Sources */,
+				BAD752E263006AB7B77E1DFC /* BoardView.swift in Sources */,
+				FE7DF52FB214DB0C561581C3 /* DailyView.swift in Sources */,
+				6176EDD440A978ADC55C87C3 /* FastMoneyView.swift in Sources */,
+				2366EC2BF1EC3AD062FE07E5 /* GameView.swift in Sources */,
+				976B38AA8CB49D7754EF1CE5 /* HomeView.swift in Sources */,
+				CAF63E89F3BB11CDD7D5E76B /* RootView.swift in Sources */,
+				44F3B49D0C73C9F0843272CB /* ShowModel.swift in Sources */,
+				9D608F4A74E63653D6350D09 /* ShowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		811CB99F7A296F7846C18A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88E6700796B683108D5F4889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MZT889Z6FM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CrowdSays/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crowdsays.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D08DD63EED508AD30D0CB0B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+			};
+			name = Debug;
+		};
+		FDA287C7C64DC2E983A802E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MZT889Z6FM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CrowdSays/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crowdsays.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		642847098F0B60C253877A57 /* Build configuration list for PBXProject "CrowdSays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D08DD63EED508AD30D0CB0B4 /* Debug */,
+				811CB99F7A296F7846C18A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8AD3EF59D5AF3A47F516C5A /* Build configuration list for PBXNativeTarget "CrowdSays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA287C7C64DC2E983A802E8 /* Debug */,
+				88E6700796B683108D5F4889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}

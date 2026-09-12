@@ -6,20 +6,44 @@ import path from "node:path";
 import { createSurveyService } from "./poe.js";
 import { createTts } from "./tts.js";
 
-// Per-IP fixed-window limits: a public site shouldn't let one visitor burn
-// the Poe balance or pin the CPU with speech synthesis.
-const LIMITS = { survey: 40, judge: 120, tts: 600, daily: 60 };
+/*
+  Per-visitor fixed-window limits, so one person can't burn the Poe balance or
+  the voice quota for everyone.
+
+  `ttsRender` is the one that matters for voices: serving a cached clip is just
+  a file read and is allowed freely under `tts`, while *making* a new clip costs
+  an API call and is limited far more tightly. Sliding the window per bucket
+  rather than clearing everything at once stops a visitor's allowance from
+  being reset early by someone else's traffic.
+*/
+const LIMITS = { survey: 40, judge: 120, tts: 600, ttsRender: 40, daily: 60 };
 const WINDOW_MS = 10 * 60 * 1000;
 
+/** The visitor, as well as we can tell behind a proxy. */
+function visitor(req) {
+  const fwd = (req.headers["x-forwarded-for"] || "").split(",")[0].trim();
+  return fwd || req.socket.remoteAddress || "?";
+}
+
 function limiter() {
+  // key -> { n, resetAt }
   const hits = new Map();
-  setInterval(() => hits.clear(), WINDOW_MS).unref();
-  return (req, bucket) => {
-    const ip = (req.headers["x-forwarded-for"] || "").split(",")[0].trim() || req.socket.remoteAddress || "?";
-    const k = `${bucket}|${ip}`;
-    const n = (hits.get(k) || 0) + 1;
-    hits.set(k, n);
-    return n <= LIMITS[bucket];
+  // Drop entries whose window has passed, rather than wiping live counters.
+  setInterval(() => {
+    const now = Date.now();
+    for (const [k, v] of hits) if (v.resetAt <= now) hits.delete(k);
+  }, 60 * 1000).unref();
+
+  return (req, bucket, { peek = false } = {}) => {
+    const k = `${bucket}|${visitor(req)}`;
+    const now = Date.now();
+    const cur = hits.get(k);
+    const entry = !cur || cur.resetAt <= now ? { n: 0, resetAt: now + WINDOW_MS } : cur;
+    // `peek` reports whether there is room without consuming any of it.
+    if (peek) return entry.n < LIMITS[bucket];
+    entry.n += 1;
+    hits.set(k, entry);
+    return entry.n <= LIMITS[bucket];
   };
 }
 
@@ -31,8 +55,20 @@ export function createApi(env, { root = process.cwd() } = {}) {
     cacheDir,
     dailiesFile: path.resolve(root, "server/dailies.json"),
   });
-  const ttsEnabled = (env.TTS || "kokoro") !== "off";
-  const tts = ttsEnabled ? createTts({ cacheDir }) : null;
+  const ttsEnabled = (env.TTS || "on") !== "off";
+  const tts = ttsEnabled
+    ? createTts({
+        cacheDir,
+        key: env.GEMINI_API_KEY,
+        model: env.TTS_MODEL,
+        // A site-wide ceiling on API calls per day, on top of the per-visitor
+        // limit, so the free tier can't be drained however busy it gets.
+        dailyBudget: Number(env.TTS_DAILY_BUDGET || 1000),
+        // Pre-rendered clips committed to the repo, so a host with no
+        // persistent disk still starts up fully voiced.
+        bundledDir: path.resolve(root, "server/voice"),
+      })
+    : null;
   const allow = limiter();
 
   const readBody = (req) =>
@@ -95,6 +131,8 @@ export function createApi(env, { root = process.cwd() } = {}) {
       }
       if (url.pathname === "/api/tts/warm" && req.method === "POST") {
         if (!tts) return send(res, 202, { ok: false });
+        // Warming only ever creates clips, so it answers to the render limit.
+        if (!allow(req, "ttsRender", { peek: true })) return send(res, 429, { ok: false });
         const { items = [] } = await readBody(req);
         tts.warm(
           (Array.isArray(items) ? items : [])
@@ -110,6 +148,10 @@ export function createApi(env, { root = process.cwd() } = {}) {
         const text = (url.searchParams.get("text") || "").slice(0, 160);
         const voice = url.searchParams.get("voice") || "";
         if (!text || !voice) return send(res, 400, { error: "text and voice required" });
+        if (!tts.knows(voice)) return send(res, 400, { error: "unknown voice" });
+        // A clip already on disk is free to serve; a new one spends quota, so
+        // it comes out of the visitor's much smaller render allowance.
+        if (!(await tts.isCached(text, voice)) && !allow(req, "ttsRender")) return limited(res);
         const wav = await tts.wav(text, voice);
         res.setHeader("Content-Type", "audio/wav");
         res.setHeader("Cache-Control", "public, max-age=31536000, immutable");

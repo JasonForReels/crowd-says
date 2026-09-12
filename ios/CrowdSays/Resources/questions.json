@@ -1,0 +1,1868 @@
+[
+ {
+  "q": "Name something people do right after waking up.",
+  "a": [
+   {
+    "text": "Check phone",
+    "points": 32,
+    "aliases": [
+     "phone",
+     "look at phone",
+     "scroll",
+     "social media"
+    ]
+   },
+   {
+    "text": "Use the bathroom",
+    "points": 24,
+    "aliases": [
+     "bathroom",
+     "pee",
+     "toilet",
+     "restroom"
+    ]
+   },
+   {
+    "text": "Brush teeth",
+    "points": 14,
+    "aliases": [
+     "teeth",
+     "brush my teeth"
+    ]
+   },
+   {
+    "text": "Drink coffee",
+    "points": 11,
+    "aliases": [
+     "coffee",
+     "make coffee"
+    ]
+   },
+   {
+    "text": "Shower",
+    "points": 8,
+    "aliases": [
+     "take a shower"
+    ]
+   },
+   {
+    "text": "Stretch",
+    "points": 5,
+    "aliases": [
+     "stretching",
+     "yawn"
+    ]
+   },
+   {
+    "text": "Hit snooze",
+    "points": 4,
+    "aliases": [
+     "snooze",
+     "alarm",
+     "go back to sleep"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "Name something you'd find in a junk drawer.",
+  "a": [
+   {
+    "text": "Batteries",
+    "points": 27,
+    "aliases": [
+     "battery"
+    ]
+   },
+   {
+    "text": "Rubber bands",
+    "points": 18,
+    "aliases": [
+     "rubber band",
+     "elastic bands"
+    ]
+   },
+   {
+    "text": "Pens",
+    "points": 15,
+    "aliases": [
+     "pen",
+     "pencil",
+     "pencils"
+    ]
+   },
+   {
+    "text": "Tape",
+    "points": 11,
+    "aliases": [
+     "scotch tape",
+     "duct tape"
+    ]
+   },
+   {
+    "text": "Keys",
+    "points": 9,
+    "aliases": [
+     "key",
+     "spare key"
+    ]
+   },
+   {
+    "text": "Scissors",
+    "points": 8,
+    "aliases": []
+   },
+   {
+    "text": "Takeout menus",
+    "points": 6,
+    "aliases": [
+     "menu",
+     "menus"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "Name a reason you might be late for work.",
+  "a": [
+   {
+    "text": "Traffic",
+    "points": 38,
+    "aliases": [
+     "bad traffic"
+    ]
+   },
+   {
+    "text": "Overslept",
+    "points": 27,
+    "aliases": [
+     "slept in",
+     "alarm",
+     "woke up late",
+     "oversleep"
+    ]
+   },
+   {
+    "text": "Kids",
+    "points": 11,
+    "aliases": [
+     "children",
+     "school run",
+     "school drop off"
+    ]
+   },
+   {
+    "text": "Car trouble",
+    "points": 9,
+    "aliases": [
+     "car",
+     "flat tire",
+     "broke down",
+     "car broke down"
+    ]
+   },
+   {
+    "text": "Weather",
+    "points": 6,
+    "aliases": [
+     "snow",
+     "rain",
+     "storm"
+    ]
+   },
+   {
+    "text": "Train delay",
+    "points": 5,
+    "aliases": [
+     "train",
+     "bus",
+     "public transport",
+     "subway"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "Name something people are afraid of.",
+  "a": [
+   {
+    "text": "Spiders",
+    "points": 29,
+    "aliases": [
+     "spider"
+    ]
+   },
+   {
+    "text": "Heights",
+    "points": 20,
+    "aliases": [
+     "height",
+     "falling"
+    ]
+   },
+   {
+    "text": "Snakes",
+    "points": 15,
+    "aliases": [
+     "snake"
+    ]
+   },
+   {
+    "text": "Death",
+    "points": 10,
+    "aliases": [
+     "dying"
+    ]
+   },
+   {
+    "text": "Clowns",
+    "points": 8,
+    "aliases": [
+     "clown"
+    ]
+   },
+   {
+    "text": "Public speaking",
+    "points": 7,
+    "aliases": [
+     "speaking",
+     "speeches"
+    ]
+   },
+   {
+    "text": "The dark",
+    "points": 6,
+    "aliases": [
+     "dark",
+     "darkness"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "Name a pizza topping.",
+  "a": [
+   {
+    "text": "Pepperoni",
+    "points": 36,
+    "aliases": []
+   },
+   {
+    "text": "Mushrooms",
+    "points": 17,
+    "aliases": [
+     "mushroom"
+    ]
+   },
+   {
+    "text": "Sausage",
+    "points": 13,
+    "aliases": []
+   },
+   {
+    "text": "Pineapple",
+    "points": 11,
+    "aliases": []
+   },
+   {
+    "text": "Onions",
+    "points": 7,
+    "aliases": [
+     "onion"
+    ]
+   },
+   {
+    "text": "Olives",
+    "points": 6,
+    "aliases": [
+     "olive",
+     "black olives"
+    ]
+   },
+   {
+    "text": "Extra cheese",
+    "points": 5,
+    "aliases": [
+     "cheese"
+    ]
+   },
+   {
+    "text": "Peppers",
+    "points": 4,
+    "aliases": [
+     "green peppers",
+     "bell pepper",
+     "pepper"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "Name something you take to the beach.",
+  "a": [
+   {
+    "text": "Towel",
+    "points": 31,
+    "aliases": [
+     "beach towel"
+    ]
+   },
+   {
+    "text": "Sunscreen",
+    "points": 24,
+    "aliases": [
+     "sun cream",
+     "suntan lotion",
+     "sunblock",
+     "lotion"
+    ]
+   },
+   {
+    "text": "Umbrella",
+    "points": 14,
+    "aliases": [
+     "parasol",
+     "beach umbrella"
+    ]
+   },
+   {
+    "text": "Cooler",
+    "points": 10,
+    "aliases": [
+     "drinks",
+     "ice box",
+     "cooler bag"
+    ]
+   },
+   {
+    "text": "Chair",
+    "points": 8,
+    "aliases": [
+     "beach chair",
+     "chairs"
+    ]
+   },
+   {
+    "text": "Sunglasses",
+    "points": 7,
+    "aliases": [
+     "shades"
+    ]
+   },
+   {
+    "text": "Book",
+    "points": 4,
+    "aliases": [
+     "magazine"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "Name a famous superhero.",
+  "a": [
+   {
+    "text": "Superman",
+    "points": 30,
+    "aliases": []
+   },
+   {
+    "text": "Spider-Man",
+    "points": 25,
+    "aliases": [
+     "spiderman",
+     "spidey"
+    ]
+   },
+   {
+    "text": "Batman",
+    "points": 22,
+    "aliases": []
+   },
+   {
+    "text": "Wonder Woman",
+    "points": 8,
+    "aliases": []
+   },
+   {
+    "text": "Iron Man",
+    "points": 7,
+    "aliases": [
+     "ironman",
+     "tony stark"
+    ]
+   },
+   {
+    "text": "Captain America",
+    "points": 5,
+    "aliases": [
+     "cap"
+    ]
+   },
+   {
+    "text": "Hulk",
+    "points": 3,
+    "aliases": [
+     "incredible hulk"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "Name a movie franchise with a LOT of sequels.",
+  "a": [
+   {
+    "text": "Star Wars",
+    "points": 24,
+    "aliases": []
+   },
+   {
+    "text": "Fast & Furious",
+    "points": 20,
+    "aliases": [
+     "fast and furious",
+     "fast furious",
+     "furious",
+     "fast"
+    ]
+   },
+   {
+    "text": "Harry Potter",
+    "points": 14,
+    "aliases": []
+   },
+   {
+    "text": "Marvel",
+    "points": 12,
+    "aliases": [
+     "avengers",
+     "mcu"
+    ]
+   },
+   {
+    "text": "James Bond",
+    "points": 10,
+    "aliases": [
+     "bond",
+     "007"
+    ]
+   },
+   {
+    "text": "Halloween",
+    "points": 6,
+    "aliases": [
+     "michael myers"
+    ]
+   },
+   {
+    "text": "Rocky",
+    "points": 5,
+    "aliases": [
+     "creed"
+    ]
+   },
+   {
+    "text": "Saw",
+    "points": 4,
+    "aliases": []
+   }
+  ]
+ },
+ {
+  "q": "Name something that's hard to do with your eyes closed.",
+  "a": [
+   {
+    "text": "Drive",
+    "points": 35,
+    "aliases": [
+     "driving"
+    ]
+   },
+   {
+    "text": "Read",
+    "points": 22,
+    "aliases": [
+     "reading"
+    ]
+   },
+   {
+    "text": "Walk",
+    "points": 16,
+    "aliases": [
+     "walking"
+    ]
+   },
+   {
+    "text": "Cook",
+    "points": 9,
+    "aliases": [
+     "cooking"
+    ]
+   },
+   {
+    "text": "Put on makeup",
+    "points": 7,
+    "aliases": [
+     "makeup"
+    ]
+   },
+   {
+    "text": "Text",
+    "points": 6,
+    "aliases": [
+     "texting",
+     "type",
+     "typing"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "Name something people lose all the time.",
+  "a": [
+   {
+    "text": "Keys",
+    "points": 41,
+    "aliases": [
+     "key",
+     "car keys"
+    ]
+   },
+   {
+    "text": "Phone",
+    "points": 19,
+    "aliases": [
+     "cell phone",
+     "mobile"
+    ]
+   },
+   {
+    "text": "Remote",
+    "points": 13,
+    "aliases": [
+     "tv remote",
+     "remote control"
+    ]
+   },
+   {
+    "text": "Glasses",
+    "points": 9,
+    "aliases": [
+     "sunglasses"
+    ]
+   },
+   {
+    "text": "Wallet",
+    "points": 8,
+    "aliases": [
+     "purse"
+    ]
+   },
+   {
+    "text": "Socks",
+    "points": 5,
+    "aliases": [
+     "sock"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "Name an animal you'd see at the zoo.",
+  "a": [
+   {
+    "text": "Lion",
+    "points": 27,
+    "aliases": []
+   },
+   {
+    "text": "Elephant",
+    "points": 22,
+    "aliases": []
+   },
+   {
+    "text": "Monkey",
+    "points": 17,
+    "aliases": [
+     "ape",
+     "gorilla",
+     "chimp",
+     "chimpanzee"
+    ]
+   },
+   {
+    "text": "Giraffe",
+    "points": 14,
+    "aliases": []
+   },
+   {
+    "text": "Tiger",
+    "points": 9,
+    "aliases": []
+   },
+   {
+    "text": "Zebra",
+    "points": 6,
+    "aliases": []
+   },
+   {
+    "text": "Penguin",
+    "points": 3,
+    "aliases": []
+   }
+  ]
+ },
+ {
+  "q": "Name something you do at a birthday party.",
+  "a": [
+   {
+    "text": "Sing",
+    "points": 30,
+    "aliases": [
+     "sing happy birthday",
+     "singing",
+     "happy birthday"
+    ]
+   },
+   {
+    "text": "Eat cake",
+    "points": 26,
+    "aliases": [
+     "cake"
+    ]
+   },
+   {
+    "text": "Open presents",
+    "points": 18,
+    "aliases": [
+     "presents",
+     "gifts",
+     "open gifts"
+    ]
+   },
+   {
+    "text": "Blow out candles",
+    "points": 10,
+    "aliases": [
+     "candles"
+    ]
+   },
+   {
+    "text": "Dance",
+    "points": 7,
+    "aliases": [
+     "dancing"
+    ]
+   },
+   {
+    "text": "Play games",
+    "points": 5,
+    "aliases": [
+     "games"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "Name something people do on a first date.",
+  "a": [
+   {
+    "text": "Dinner",
+    "points": 36,
+    "aliases": [
+     "eat",
+     "restaurant",
+     "go to dinner"
+    ]
+   },
+   {
+    "text": "Movie",
+    "points": 24,
+    "aliases": [
+     "movies",
+     "cinema",
+     "see a movie"
+    ]
+   },
+   {
+    "text": "Talk",
+    "points": 12,
+    "aliases": [
+     "conversation",
+     "chat",
+     "talking"
+    ]
+   },
+   {
+    "text": "Drinks",
+    "points": 10,
+    "aliases": [
+     "drink",
+     "bar",
+     "get drinks"
+    ]
+   },
+   {
+    "text": "Coffee",
+    "points": 8,
+    "aliases": [
+     "get coffee"
+    ]
+   },
+   {
+    "text": "Kiss",
+    "points": 5,
+    "aliases": [
+     "kissing"
+    ]
+   },
+   {
+    "text": "Walk",
+    "points": 3,
+    "aliases": [
+     "park",
+     "go for a walk"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "Name a reason someone calls in sick when they're NOT sick.",
+  "a": [
+   {
+    "text": "Hangover",
+    "points": 30,
+    "aliases": [
+     "hungover"
+    ]
+   },
+   {
+    "text": "Tired",
+    "points": 18,
+    "aliases": [
+     "sleep",
+     "exhausted",
+     "sleep in"
+    ]
+   },
+   {
+    "text": "Mental health day",
+    "points": 15,
+    "aliases": [
+     "mental health",
+     "stress"
+    ]
+   },
+   {
+    "text": "Job interview",
+    "points": 11,
+    "aliases": [
+     "interview"
+    ]
+   },
+   {
+    "text": "Big game",
+    "points": 9,
+    "aliases": [
+     "game",
+     "playoffs",
+     "sports"
+    ]
+   },
+   {
+    "text": "Vacation",
+    "points": 8,
+    "aliases": [
+     "trip",
+     "beach",
+     "holiday"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "Name something that gets passed around.",
+  "a": [
+   {
+    "text": "Food",
+    "points": 22,
+    "aliases": [
+     "dish",
+     "plate"
+    ]
+   },
+   {
+    "text": "Salt",
+    "points": 18,
+    "aliases": [
+     "salt shaker",
+     "salt and pepper"
+    ]
+   },
+   {
+    "text": "A cold",
+    "points": 16,
+    "aliases": [
+     "cold",
+     "flu",
+     "germs",
+     "virus"
+    ]
+   },
+   {
+    "text": "Gossip",
+    "points": 14,
+    "aliases": [
+     "rumor",
+     "rumour",
+     "rumors"
+    ]
+   },
+   {
+    "text": "Collection plate",
+    "points": 10,
+    "aliases": [
+     "offering plate",
+     "offering"
+    ]
+   },
+   {
+    "text": "Baby",
+    "points": 8,
+    "aliases": []
+   },
+   {
+    "text": "Ball",
+    "points": 6,
+    "aliases": [
+     "football"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "Name a word that comes after \"HOT\".",
+  "a": [
+   {
+    "text": "Dog",
+    "points": 33,
+    "aliases": [
+     "hot dog"
+    ]
+   },
+   {
+    "text": "Sauce",
+    "points": 20,
+    "aliases": [
+     "hot sauce"
+    ]
+   },
+   {
+    "text": "Tub",
+    "points": 14,
+    "aliases": [
+     "hot tub"
+    ]
+   },
+   {
+    "text": "Chocolate",
+    "points": 11,
+    "aliases": [
+     "hot chocolate",
+     "cocoa"
+    ]
+   },
+   {
+    "text": "Wings",
+    "points": 9,
+    "aliases": [
+     "hot wings"
+    ]
+   },
+   {
+    "text": "Potato",
+    "points": 7,
+    "aliases": [
+     "hot potato"
+    ]
+   },
+   {
+    "text": "Rod",
+    "points": 4,
+    "aliases": [
+     "hot rod"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "Name something associated with Halloween.",
+  "a": [
+   {
+    "text": "Candy",
+    "points": 38,
+    "aliases": [
+     "sweets"
+    ]
+   },
+   {
+    "text": "Costume",
+    "points": 22,
+    "aliases": [
+     "costumes",
+     "dress up"
+    ]
+   },
+   {
+    "text": "Pumpkin",
+    "points": 16,
+    "aliases": [
+     "jack o lantern",
+     "pumpkins"
+    ]
+   },
+   {
+    "text": "Ghost",
+    "points": 9,
+    "aliases": [
+     "ghosts"
+    ]
+   },
+   {
+    "text": "Witch",
+    "points": 7,
+    "aliases": [
+     "witches"
+    ]
+   },
+   {
+    "text": "Trick or treat",
+    "points": 5,
+    "aliases": [
+     "trick or treating"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "Name something you'd hate to find in your soup.",
+  "a": [
+   {
+    "text": "Hair",
+    "points": 44,
+    "aliases": []
+   },
+   {
+    "text": "Fly",
+    "points": 21,
+    "aliases": [
+     "bug",
+     "insect",
+     "flies"
+    ]
+   },
+   {
+    "text": "Band-aid",
+    "points": 11,
+    "aliases": [
+     "bandaid",
+     "bandage",
+     "plaster"
+    ]
+   },
+   {
+    "text": "Cockroach",
+    "points": 8,
+    "aliases": [
+     "roach"
+    ]
+   },
+   {
+    "text": "Fingernail",
+    "points": 7,
+    "aliases": [
+     "nail"
+    ]
+   },
+   {
+    "text": "Tooth",
+    "points": 5,
+    "aliases": [
+     "teeth"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "Name a job where you wear a uniform.",
+  "a": [
+   {
+    "text": "Police officer",
+    "points": 30,
+    "aliases": [
+     "police",
+     "cop",
+     "officer"
+    ]
+   },
+   {
+    "text": "Nurse",
+    "points": 17,
+    "aliases": []
+   },
+   {
+    "text": "Firefighter",
+    "points": 15,
+    "aliases": [
+     "fireman",
+     "fire fighter"
+    ]
+   },
+   {
+    "text": "Soldier",
+    "points": 13,
+    "aliases": [
+     "military",
+     "army"
+    ]
+   },
+   {
+    "text": "Doctor",
+    "points": 9,
+    "aliases": []
+   },
+   {
+    "text": "Pilot",
+    "points": 7,
+    "aliases": []
+   },
+   {
+    "text": "Chef",
+    "points": 4,
+    "aliases": [
+     "cook"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "Name something people collect.",
+  "a": [
+   {
+    "text": "Stamps",
+    "points": 30,
+    "aliases": [
+     "stamp"
+    ]
+   },
+   {
+    "text": "Coins",
+    "points": 25,
+    "aliases": [
+     "coin"
+    ]
+   },
+   {
+    "text": "Cards",
+    "points": 14,
+    "aliases": [
+     "baseball cards",
+     "trading cards",
+     "pokemon cards"
+    ]
+   },
+   {
+    "text": "Dolls",
+    "points": 9,
+    "aliases": [
+     "doll"
+    ]
+   },
+   {
+    "text": "Records",
+    "points": 8,
+    "aliases": [
+     "vinyl"
+    ]
+   },
+   {
+    "text": "Shoes",
+    "points": 6,
+    "aliases": [
+     "sneakers"
+    ]
+   },
+   {
+    "text": "Comic books",
+    "points": 5,
+    "aliases": [
+     "comics"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "Name something that has keys.",
+  "a": [
+   {
+    "text": "Piano",
+    "points": 32,
+    "aliases": []
+   },
+   {
+    "text": "Keyboard",
+    "points": 24,
+    "aliases": [
+     "computer",
+     "laptop"
+    ]
+   },
+   {
+    "text": "Car",
+    "points": 16,
+    "aliases": []
+   },
+   {
+    "text": "Door",
+    "points": 10,
+    "aliases": [
+     "house",
+     "lock"
+    ]
+   },
+   {
+    "text": "Typewriter",
+    "points": 8,
+    "aliases": []
+   },
+   {
+    "text": "Map",
+    "points": 4,
+    "aliases": [
+     "map key"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "Name a sport played with a ball.",
+  "a": [
+   {
+    "text": "Football",
+    "points": 26,
+    "aliases": []
+   },
+   {
+    "text": "Basketball",
+    "points": 24,
+    "aliases": []
+   },
+   {
+    "text": "Baseball",
+    "points": 18,
+    "aliases": []
+   },
+   {
+    "text": "Soccer",
+    "points": 13,
+    "aliases": []
+   },
+   {
+    "text": "Tennis",
+    "points": 9,
+    "aliases": []
+   },
+   {
+    "text": "Golf",
+    "points": 6,
+    "aliases": []
+   },
+   {
+    "text": "Volleyball",
+    "points": 4,
+    "aliases": []
+   }
+  ]
+ },
+ {
+  "q": "Name a TV show everyone has binge-watched.",
+  "a": [
+   {
+    "text": "Friends",
+    "points": 28,
+    "aliases": []
+   },
+   {
+    "text": "The Office",
+    "points": 22,
+    "aliases": [
+     "office"
+    ]
+   },
+   {
+    "text": "Breaking Bad",
+    "points": 14,
+    "aliases": []
+   },
+   {
+    "text": "Game of Thrones",
+    "points": 12,
+    "aliases": [
+     "got"
+    ]
+   },
+   {
+    "text": "Stranger Things",
+    "points": 10,
+    "aliases": []
+   },
+   {
+    "text": "Grey's Anatomy",
+    "points": 6,
+    "aliases": [
+     "greys anatomy",
+     "greys"
+    ]
+   },
+   {
+    "text": "The Simpsons",
+    "points": 5,
+    "aliases": [
+     "simpsons"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "Name a place where people whisper.",
+  "a": [
+   {
+    "text": "Library",
+    "points": 48,
+    "aliases": []
+   },
+   {
+    "text": "Church",
+    "points": 21,
+    "aliases": [
+     "temple",
+     "mosque"
+    ]
+   },
+   {
+    "text": "Movie theater",
+    "points": 12,
+    "aliases": [
+     "cinema",
+     "movies",
+     "theatre",
+     "theater"
+    ]
+   },
+   {
+    "text": "Hospital",
+    "points": 8,
+    "aliases": []
+   },
+   {
+    "text": "Funeral",
+    "points": 6,
+    "aliases": []
+   },
+   {
+    "text": "Bed",
+    "points": 3,
+    "aliases": [
+     "bedroom"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "Name something you'd see at a wedding.",
+  "a": [
+   {
+    "text": "Bride",
+    "points": 26,
+    "aliases": []
+   },
+   {
+    "text": "Cake",
+    "points": 22,
+    "aliases": [
+     "wedding cake"
+    ]
+   },
+   {
+    "text": "Flowers",
+    "points": 14,
+    "aliases": [
+     "bouquet"
+    ]
+   },
+   {
+    "text": "Rings",
+    "points": 12,
+    "aliases": [
+     "ring"
+    ]
+   },
+   {
+    "text": "Groom",
+    "points": 10,
+    "aliases": []
+   },
+   {
+    "text": "Dress",
+    "points": 7,
+    "aliases": [
+     "wedding dress",
+     "gown"
+    ]
+   },
+   {
+    "text": "Dancing",
+    "points": 5,
+    "aliases": [
+     "dance"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "Name something you'll always find at a movie theater.",
+  "a": [
+   {
+    "text": "Popcorn",
+    "points": 52,
+    "aliases": []
+   },
+   {
+    "text": "Seats",
+    "points": 13,
+    "aliases": [
+     "chairs",
+     "seat"
+    ]
+   },
+   {
+    "text": "Screen",
+    "points": 11,
+    "aliases": []
+   },
+   {
+    "text": "Candy",
+    "points": 9,
+    "aliases": [
+     "sweets"
+    ]
+   },
+   {
+    "text": "Soda",
+    "points": 7,
+    "aliases": [
+     "drink",
+     "coke",
+     "pop"
+    ]
+   },
+   {
+    "text": "Sticky floor",
+    "points": 4,
+    "aliases": [
+     "sticky floors",
+     "floor"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "Name a fruit that's yellow.",
+  "a": [
+   {
+    "text": "Banana",
+    "points": 58,
+    "aliases": []
+   },
+   {
+    "text": "Lemon",
+    "points": 23,
+    "aliases": []
+   },
+   {
+    "text": "Pineapple",
+    "points": 8,
+    "aliases": []
+   },
+   {
+    "text": "Mango",
+    "points": 5,
+    "aliases": []
+   },
+   {
+    "text": "Star fruit",
+    "points": 3,
+    "aliases": [
+     "starfruit"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "Name something you plug in.",
+  "a": [
+   {
+    "text": "Phone",
+    "points": 34,
+    "aliases": [
+     "phone charger",
+     "charger"
+    ]
+   },
+   {
+    "text": "Lamp",
+    "points": 16,
+    "aliases": [
+     "light"
+    ]
+   },
+   {
+    "text": "TV",
+    "points": 14,
+    "aliases": [
+     "television"
+    ]
+   },
+   {
+    "text": "Toaster",
+    "points": 10,
+    "aliases": []
+   },
+   {
+    "text": "Computer",
+    "points": 9,
+    "aliases": [
+     "laptop"
+    ]
+   },
+   {
+    "text": "Hair dryer",
+    "points": 7,
+    "aliases": [
+     "blow dryer"
+    ]
+   },
+   {
+    "text": "Microwave",
+    "points": 5,
+    "aliases": []
+   }
+  ]
+ },
+ {
+  "q": "Name a famous wizard.",
+  "a": [
+   {
+    "text": "Harry Potter",
+    "points": 34,
+    "aliases": [
+     "harry",
+     "potter"
+    ]
+   },
+   {
+    "text": "Gandalf",
+    "points": 26,
+    "aliases": []
+   },
+   {
+    "text": "Merlin",
+    "points": 18,
+    "aliases": []
+   },
+   {
+    "text": "Dumbledore",
+    "points": 12,
+    "aliases": []
+   },
+   {
+    "text": "Doctor Strange",
+    "points": 3,
+    "aliases": [
+     "strange",
+     "dr strange"
+    ]
+   },
+   {
+    "text": "The Wizard of Oz",
+    "points": 3,
+    "aliases": [
+     "oz",
+     "wizard of oz"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "Name something people do to relax.",
+  "a": [
+   {
+    "text": "Sleep",
+    "points": 25,
+    "aliases": [
+     "nap"
+    ]
+   },
+   {
+    "text": "Read",
+    "points": 18,
+    "aliases": [
+     "reading",
+     "book"
+    ]
+   },
+   {
+    "text": "Watch TV",
+    "points": 16,
+    "aliases": [
+     "tv",
+     "netflix"
+    ]
+   },
+   {
+    "text": "Take a bath",
+    "points": 13,
+    "aliases": [
+     "bath",
+     "bubble bath"
+    ]
+   },
+   {
+    "text": "Listen to music",
+    "points": 10,
+    "aliases": [
+     "music"
+    ]
+   },
+   {
+    "text": "Yoga",
+    "points": 7,
+    "aliases": [
+     "meditate",
+     "meditation"
+    ]
+   },
+   {
+    "text": "Drink wine",
+    "points": 5,
+    "aliases": [
+     "wine"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "Name something you might forget to pack for vacation.",
+  "a": [
+   {
+    "text": "Toothbrush",
+    "points": 30,
+    "aliases": [
+     "toothpaste"
+    ]
+   },
+   {
+    "text": "Charger",
+    "points": 22,
+    "aliases": [
+     "phone charger"
+    ]
+   },
+   {
+    "text": "Underwear",
+    "points": 14,
+    "aliases": [
+     "underpants"
+    ]
+   },
+   {
+    "text": "Sunscreen",
+    "points": 10,
+    "aliases": []
+   },
+   {
+    "text": "Passport",
+    "points": 9,
+    "aliases": []
+   },
+   {
+    "text": "Medicine",
+    "points": 7,
+    "aliases": [
+     "pills",
+     "medication"
+    ]
+   },
+   {
+    "text": "Swimsuit",
+    "points": 5,
+    "aliases": [
+     "bathing suit",
+     "swimming costume"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "Name something in a kitchen that gets hot.",
+  "a": [
+   {
+    "text": "Stove",
+    "points": 34,
+    "aliases": [
+     "stovetop"
+    ]
+   },
+   {
+    "text": "Oven",
+    "points": 28,
+    "aliases": []
+   },
+   {
+    "text": "Toaster",
+    "points": 12,
+    "aliases": []
+   },
+   {
+    "text": "Microwave",
+    "points": 9,
+    "aliases": []
+   },
+   {
+    "text": "Kettle",
+    "points": 7,
+    "aliases": [
+     "tea kettle"
+    ]
+   },
+   {
+    "text": "Pan",
+    "points": 6,
+    "aliases": [
+     "frying pan",
+     "pot",
+     "skillet"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "Name a type of dance.",
+  "a": [
+   {
+    "text": "Salsa",
+    "points": 22,
+    "aliases": []
+   },
+   {
+    "text": "Tango",
+    "points": 19,
+    "aliases": []
+   },
+   {
+    "text": "Ballet",
+    "points": 16,
+    "aliases": []
+   },
+   {
+    "text": "Hip hop",
+    "points": 14,
+    "aliases": [
+     "hiphop"
+    ]
+   },
+   {
+    "text": "Waltz",
+    "points": 11,
+    "aliases": []
+   },
+   {
+    "text": "Tap",
+    "points": 8,
+    "aliases": [
+     "tap dance"
+    ]
+   },
+   {
+    "text": "Line dancing",
+    "points": 5,
+    "aliases": [
+     "line dance"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "Name a food people eat with their hands.",
+  "a": [
+   {
+    "text": "Pizza",
+    "points": 30,
+    "aliases": []
+   },
+   {
+    "text": "Burger",
+    "points": 24,
+    "aliases": [
+     "hamburger",
+     "cheeseburger"
+    ]
+   },
+   {
+    "text": "Chicken wings",
+    "points": 13,
+    "aliases": [
+     "wings",
+     "chicken",
+     "fried chicken"
+    ]
+   },
+   {
+    "text": "Fries",
+    "points": 11,
+    "aliases": [
+     "french fries",
+     "chips"
+    ]
+   },
+   {
+    "text": "Tacos",
+    "points": 9,
+    "aliases": [
+     "taco"
+    ]
+   },
+   {
+    "text": "Sandwich",
+    "points": 7,
+    "aliases": []
+   },
+   {
+    "text": "Hot dog",
+    "points": 4,
+    "aliases": []
+   }
+  ]
+ },
+ {
+  "q": "Name a reason you'd get pulled over.",
+  "a": [
+   {
+    "text": "Speeding",
+    "points": 55,
+    "aliases": [
+     "speed",
+     "too fast"
+    ]
+   },
+   {
+    "text": "Running a red light",
+    "points": 14,
+    "aliases": [
+     "red light",
+     "ran a red light"
+    ]
+   },
+   {
+    "text": "Broken taillight",
+    "points": 11,
+    "aliases": [
+     "taillight",
+     "tail light",
+     "headlight",
+     "broken light"
+    ]
+   },
+   {
+    "text": "Texting",
+    "points": 8,
+    "aliases": [
+     "phone",
+     "on phone"
+    ]
+   },
+   {
+    "text": "Drunk driving",
+    "points": 7,
+    "aliases": [
+     "drunk",
+     "dui"
+    ]
+   },
+   {
+    "text": "Expired tags",
+    "points": 3,
+    "aliases": [
+     "registration",
+     "tags"
+    ]
+   }
+  ]
+ },
+ {
+  "q": "Name something associated with Star Wars.",
+  "a": [
+   {
+    "text": "Lightsaber",
+    "points": 30,
+    "aliases": [
+     "light saber"
+    ]
+   },
+   {
+    "text": "Darth Vader",
+    "points": 24,
+    "aliases": [
+     "vader"
+    ]
+   },
+   {
+    "text": "Yoda",
+    "points": 14,
+    "aliases": [
+     "baby yoda",
+     "grogu"
+    ]
+   },
+   {
+    "text": "The Force",
+    "points": 11,
+    "aliases": [
+     "force"
+    ]
+   },
+   {
+    "text": "Luke Skywalker",
+    "points": 9,
+    "aliases": [
+     "luke",
+     "skywalker"
+    ]
+   },
+   {
+    "text": "Chewbacca",
+    "points": 6,
+    "aliases": [
+     "chewie",
+     "wookiee",
+     "wookie"
+    ]
+   },
+   {
+    "text": "Death Star",
+    "points": 4,
+    "aliases": []
+   }
+  ]
+ }
+]

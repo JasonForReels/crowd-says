@@ -1,5 +1,6 @@
-// WebAudio sound kit: tones, applause and crowd noise are all synthesised,
-// so there are no audio files to ship. voice.js plays through the same graph.
+// WebAudio sound kit. The buzzers, dings and flips are synthesised, so there
+// are no files for those; the audience reactions are real recordings from
+// public/audio (see tools/crowd/). voice.js plays through the same graph.
 
 let ctx = null;
 let master = null;
@@ -78,8 +79,70 @@ function noise() {
   return src;
 }
 
+/*
+  Real studio audiences, cut from freely-licensed recordings (see
+  tools/crowd/ATTRIBUTION.md). Synthesised noise can do the texture of a room
+  but never the sound of actual people, so reactions play the recordings and
+  fall back to the synth below only if a clip can't be loaded.
+*/
+const SAMPLES = {
+  cheer: "/audio/cheer.m4a",
+  applause: "/audio/applause.m4a",
+  applauseBig: "/audio/applause-big.m4a",
+  groan: "/audio/groan.m4a",
+};
+const loaded = new Map();
+
+function sample(name) {
+  if (!loaded.has(name)) {
+    const p = fetch(SAMPLES[name])
+      .then((r) => {
+        if (!r.ok) throw new Error(`audio ${r.status}`);
+        return r.arrayBuffer();
+      })
+      .then((ab) => audio().ctx.decodeAudioData(ab));
+    p.catch(() => loaded.delete(name));
+    loaded.set(name, p);
+  }
+  return loaded.get(name);
+}
+
+/** Fetch and decode the reactions up front, so the first one isn't late. */
+export function preloadCrowd() {
+  if (muted) return; // needs a gesture first; called again once unmuted
+  for (const name of Object.keys(SAMPLES)) sample(name).catch(() => {});
+}
+
+/** Plays a recording at `level`, trimmed to `dur` with a short fade. */
+function playSample(name, dur, level, { wet = true } = {}) {
+  if (muted) return false;
+  const p = loaded.get(name);
+  if (!p) {
+    sample(name).catch(() => {});
+    return false; // not decoded yet — this one uses the synth
+  }
+  p.then((buf) => {
+    if (muted) return;
+    const { ctx, master, room } = audio();
+    const src = ctx.createBufferSource();
+    src.buffer = buf;
+    const g = ctx.createGain();
+    const t = ctx.currentTime;
+    const length = Math.min(dur ?? buf.duration, buf.duration);
+    g.gain.setValueAtTime(0, t);
+    g.gain.linearRampToValueAtTime(level, t + 0.04);
+    g.gain.setValueAtTime(level, t + Math.max(0.05, length - 0.4));
+    g.gain.linearRampToValueAtTime(0.0001, t + length);
+    src.connect(g).connect(master);
+    if (wet) g.connect(room);
+    src.start(t);
+    src.stop(t + length + 0.05);
+  }).catch(() => {});
+  return true;
+}
+
 /** Hundreds of tiny filtered noise bursts read convincingly as a clapping crowd. */
-function applause(dur = 2.6, level = 0.5) {
+function synthApplause(dur = 2.6, level = 0.5) {
   if (muted) return;
   const { ctx, master, room } = audio();
   const out = ctx.createGain();
@@ -107,9 +170,17 @@ function applause(dur = 2.6, level = 0.5) {
   }
 }
 
-/** Crowd bed: bandpassed noise with a wobbling envelope, under the voices. */
+function applause(dur = 2.6, level = 0.5) {
+  if (muted) return;
+  // A four-second-plus cue is a win, so bring the whole house in.
+  const name = dur >= 4 ? "applauseBig" : "applause";
+  if (!playSample(name, dur, Math.min(1, level * 1.5))) synthApplause(dur, level);
+}
+
+/** Crowd bed: a real audience under the voices, or filtered noise if it's late. */
 export function crowdBed(dur = 1.4, level = 0.1, shape = "cheer") {
   if (muted) return;
+  if (playSample(shape === "groan" ? "groan" : "cheer", dur, Math.min(1, level * 3.2))) return;
   const { ctx, master } = audio();
   const src = noise();
   const bp = ctx.createBiquadFilter();
@@ -165,6 +236,6 @@ export const sfx = {
   },
   applause,
   groan() {
-    crowdBed(1.3, 0.16, "groan");
+    if (!playSample("groan", 1.8, 0.55)) crowdBed(1.3, 0.16, "groan");
   },
 };

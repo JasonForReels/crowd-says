@@ -1,7 +1,7 @@
 /*
   Production server: serves the built site from dist/ and the /api routes.
   Run `npm run build` first. Reads POE_API_KEY (and optional POE_MODEL, TTS,
-  CACHE_DIR) from the environment; PORT is set by the host.
+  TTS_DTYPE, CACHE_DIR) from the environment; PORT is set by the host.
 */
 import { createServer } from "node:http";
 import { readFile, stat } from "node:fs/promises";
@@ -11,6 +11,15 @@ import { createApi } from "./api.js";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dist = path.join(root, "dist");
+
+// Load .env the way the Vite dev server does, so `npm start` sees the same
+// keys as `npm run dev`. Real environment variables still win.
+try {
+  process.loadEnvFile(path.join(root, ".env"));
+} catch {
+  /* no .env, or a Node without loadEnvFile — the environment is enough */
+}
+
 const api = createApi(process.env, { root });
 
 const TYPES = {
@@ -22,6 +31,8 @@ const TYPES = {
   ".ico": "image/x-icon",
   ".json": "application/json",
   ".woff2": "font/woff2",
+  ".m4a": "audio/mp4",
+  ".wav": "audio/wav",
 };
 
 async function serveStatic(req, res) {

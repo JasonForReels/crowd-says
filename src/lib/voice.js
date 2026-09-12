@@ -1,33 +1,42 @@
 /*
   Voices for the host, the rival family and the studio audience.
 
-  Engines (all free):
-    kokoro  — Kokoro-82M running locally on the dev server. Natural voices, and
-              because we get real audio, the "audience" is several voices layered
-              with offsets, detune, panning and reverb over a crowd bed.
-    browser — the Web Speech API built into every browser. Instant, no download;
-              quality depends on the OS. Can't layer, so the crowd is one voice
-              over synthesised crowd noise.
+  Engines:
+    studio  — Gemini TTS, rendered by the server and cached to disk, so a line
+              is only ever generated once. Real audio comes back, so the
+              "audience" is several voices layered with offsets, detune,
+              panning and reverb over a bed of real crowd noise.
+    browser — the Web Speech API built into every browser. Instant and free,
+              but robotic; only used when a studio clip can't be had.
     off     — subtitles only.
 
-  Every call resolves when the line has finished, so the game can sequence on it.
-  If a Kokoro clip isn't ready in time, that line falls back to the browser voice
-  rather than stalling the show.
+  Every call resolves when the line has finished, so the game can sequence on
+  it. If a studio clip isn't ready in time that line falls back to the browser
+  voice rather than stalling the show — and says so in the console.
 */
 import { audio, crowdBed, isMuted } from "./sound.js";
 
+/*
+  Gemini voices, chosen on Google's published characteristics: Puck is upbeat
+  (the host), Kore firm (the rival family), Leda and Aoede youthful and breezy
+  (the audience). The server holds the matching style prompts and only accepts
+  these names. Two crowd voices rather than four: crowd() choruses whatever
+  arrives into the four layers, so a line never waits on all of them.
+*/
 export const VOICES = {
-  host: "am_michael",
-  rival: "af_sarah",
-  crowd: ["af_bella", "am_adam", "af_nicole", "am_puck"],
+  host: "Puck",
+  rival: "Kore",
+  crowd: ["Leda", "Aoede"],
 };
 
 const KEY = "cs-voice";
 let engine = (() => {
   try {
-    return localStorage.getItem(KEY) || "kokoro";
+    const saved = localStorage.getItem(KEY);
+    // "kokoro" is the old name for this engine.
+    return !saved || saved === "kokoro" ? "studio" : saved;
   } catch {
-    return "kokoro";
+    return "studio";
   }
 })();
 export const getEngine = () => engine;
@@ -41,7 +50,7 @@ export function setEngine(e) {
   if (e !== "browser") speechSynthesis?.cancel();
 }
 
-export async function kokoroStatus() {
+export async function ttsStatus() {
   try {
     return await (await fetch("/api/tts/status")).json();
   } catch {
@@ -52,7 +61,7 @@ export async function kokoroStatus() {
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const within = (p, ms) => Promise.race([p, sleep(ms).then(() => null)]);
 
-// ── Kokoro ──
+// ── Studio clips ──
 const buffers = new Map();
 function clip(text, voice) {
   const k = `${voice}|${text}`;
@@ -122,44 +131,74 @@ function speak(text, role) {
 // ── Public API ──
 const silent = () => engine === "off" || isMuted();
 
+/* Falling back used to be silent, which is how the robot voice hid for so long. */
+function fellBack(role, text) {
+  console.warn(`[crowd-says] ${role} clip wasn't ready, using the browser voice: "${text}"`);
+}
+
 async function one(role, text, maxWait) {
   if (silent()) return;
   if (engine === "browser") return speak(text, role);
   const buf = await within(clip(text, VOICES[role]).catch(() => null), maxWait);
-  if (!buf) return speak(text, role);
+  if (!buf) {
+    fellBack(role, text);
+    return speak(text, role);
+  }
   return play([{ buf, gain: role === "host" ? 1.1 : 1 }]);
 }
 
-export const host = (text, { maxWait = 3000 } = {}) => one("host", text, maxWait);
-export const rival = (text, { maxWait = 2500 } = {}) => one("rival", text, maxWait);
+export const host = (text, { maxWait = 8000 } = {}) => one("host", text, maxWait);
+export const rival = (text, { maxWait = 6000 } = {}) => one("rival", text, maxWait);
 
-/** The studio audience shouting a line together. */
-export async function crowd(text, { maxWait = 3000, level = 1 } = {}) {
+/*
+  The studio audience shouting a line together.
+
+  Four layers, built from however many clips actually arrived in time — one is
+  enough. Each layer gets its own delay, detune and position, so a single voice
+  still reads as a group of people rather than one person; the spread is wider
+  when there are fewer distinct voices to work with.
+*/
+export async function crowd(text, { maxWait = 8000, level = 1 } = {}) {
   if (silent()) return;
   if (engine === "browser") {
     crowdBed(1.2 + text.length * 0.05, 0.12);
     return speak(text, "crowd");
   }
+
+  // Each clip is waited on separately: the crowd speaks with what it has
+  // instead of holding out for all of them.
   const bufs = (
-    await within(Promise.all(VOICES.crowd.map((v) => clip(text, v).catch(() => null))), maxWait)
-  )?.filter(Boolean);
-  if (!bufs?.length) {
+    await Promise.all(VOICES.crowd.map((v) => within(clip(text, v).catch(() => null), maxWait)))
+  ).filter(Boolean);
+
+  if (!bufs.length) {
+    fellBack("crowd", text);
     crowdBed(1.2 + text.length * 0.05, 0.12);
     return speak(text, "crowd");
   }
-  const offsets = [0, 0.045, 0.1, 0.07];
-  const rates = [1, 0.97, 1.04, 1.01];
+
+  // Wider detune when one voice is doing all four parts, so it thickens into a
+  // chorus rather than sounding like a flanged solo.
+  const solo = bufs.length === 1;
+  const offsets = solo ? [0, 0.07, 0.14, 0.05] : [0, 0.045, 0.1, 0.07];
+  const rates = solo ? [1, 0.93, 1.07, 0.97] : [1, 0.97, 1.04, 1.01];
   const pans = [-0.55, 0.45, 0.1, -0.2];
   const longest = Math.max(...bufs.map((b) => b.duration));
   crowdBed(longest + 0.5, 0.07 * level);
   return play(
-    bufs.map((buf, i) => ({ buf, delay: offsets[i], rate: rates[i], pan: pans[i], gain: 0.55 * level }))
+    offsets.map((delay, i) => ({
+      buf: bufs[i % bufs.length],
+      delay,
+      rate: rates[i],
+      pan: pans[i],
+      gain: 0.55 * level,
+    }))
   );
 }
 
-/** Ask the server to synthesise lines ahead of time (Kokoro only). */
+/** Ask the server to render lines before they are needed. */
 export function warm(lines) {
-  if (engine !== "kokoro") return;
+  if (engine !== "studio") return;
   const items = lines.flatMap(({ role, text }) =>
     role === "crowd" ? VOICES.crowd.map((voice) => ({ text, voice })) : [{ text, voice: VOICES[role] }]
   );
