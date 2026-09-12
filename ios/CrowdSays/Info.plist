@@ -48,7 +48,7 @@
 	     app plays offline from its bundled question bank, using iPhone
 	     voices. Overridable in the app's Settings sheet. -->
 	<key>CSServerURL</key>
-	<string>http://localhost:8811</string>
+	<string>https://crowd-says.onrender.com</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<!-- Lets you point the app at a plain-HTTP server on your LAN while
